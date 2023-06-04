@@ -4,7 +4,7 @@ Python por su sencillez, legibilidad y versatilidad, en la actualidad se ha conv
 Con el curso Python by breativo, aprenderás a dominarás los principios básicos de Python, sus estructuras, sus funciones, los bucles e interacciones, ficheros y control de excepciones, entre otros.
 </br>
 </br>
-![https://github.com/breativo](https://github.com/breativo/Python_by_breativo/blob/master/img/curso_python.png?raw=true)
+![https://github.com/breativo](https://github.com/breativo/Python_by_breativo/blob/master/img/Banner_Python_by_breativo.png?raw=true)
 [![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.88.0+-00a393?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=101010)](https://fastapi.tiangolo.com)
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-00684A?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=101010)](https://www.mongodb.com)
