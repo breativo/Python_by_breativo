@@ -1,4 +1,4 @@
-# Python by breativo
+# Python by breativo 
 
 Python por su sencillez, legibilidad y versatilidad, en la actualidad se ha convertido en uno de los lenguajes de programación más populares del mundo.
 Con el curso Python by breativo, aprenderás a dominarás los principios básicos de Python, sus estructuras, sus funciones, los bucles e interacciones, ficheros y control de excepciones, entre otros.
@@ -10,8 +10,9 @@ Con el curso Python by breativo, aprenderás a dominarás los principios básico
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-00684A?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=101010)](https://www.mongodb.com)
 [![ChatGPT](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
 
-# Temario
---
+# Temario 
+### [00 Instalación Python.](https://github.com/breativo/Python_by_breativo/tree/master/00_Instalaci%C3%B3n_Python)
+### [01 Variables Python.](https://github.com/breativo/Python_by_breativo/tree/master/01_Variables_Python)
 # Enlaces de interés
 --
 # Encuéntrame
