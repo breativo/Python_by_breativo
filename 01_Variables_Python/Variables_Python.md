@@ -7,7 +7,8 @@
 <h2 style="color:#15A7E1">Definición variables.</h2>
 Las variables almacenan datos en la memoria de una computadora. Una variable mnemotécnica es un nombre de variable que se recuerda y asocia fácilmente. Una variable puede tener un nombre corto (como x, y, z), pero se recomienda enfáticamente un nombre más descriptivo (nombre, apellido, edad, país).
 </br>
-
+En la parte izquierda hay que situar un identificador válido y a la derecha el dato que deseamos asignar al identificador.
+</br>
 Reglas de nombres de variables de Python
 </br>
 
@@ -23,6 +24,8 @@ Cuando asignamos un determinado tipo de datos a una variable, se llama declaraci
 
 Usemos las funciones integradas print() y len() . La función de impresión toma un número ilimitado de argumentos. Un argumento es un valor que se puede pasar o poner dentro del paréntesis de la función, vea el ejemplo a continuación.
 </br>
+
+<image src="./img/variables.png" alt="Descripción de la imagen">
 
 <h2 style="color:#15A7E1">Declarar múltiples variables en una linea.</h2>
 También disponemos de la opción de declarar múltiples variables en una misma línea. Solo debemos seguir el orden de las variables a la hora de declarar las variables. De esta forma cada variable tendrá declarado su dato correctamente.
