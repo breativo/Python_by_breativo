@@ -1,6 +1,6 @@
 # Variables Python
 
-![Variables Python](https://github.com/breativo/Python_by_breativo/blob/master/01_Variables_Python/Variables_Python.png?raw=true)
+![Variables Python](https://github.com/breativo/Python_by_breativo/blob/master/img/Banner_Python_by_breativo.png?raw=true)
 
 # Lección 2. Variables Python.
 
