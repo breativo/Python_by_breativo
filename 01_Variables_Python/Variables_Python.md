@@ -18,6 +18,9 @@ Reglas de nombres de variables de Python
 Los nombres de las variables distinguen entre mayúsculas y minúsculas (firstname, Firstname, FirstName y FIRSTNAME) son variables diferentes).
 
 Usaremos el estilo estándar de nomenclatura de variables de Python que ha sido adoptado por muchos desarrolladores de Python. Los desarrolladores de Python usan la convención de nomenclatura de variables de caja de serpiente (snake_case).
+</br>
+
+<image src="./img/declaracion_variable.png" alt="Descripción de la imagen">
 
 <h2 style="color:#15A7E1">Asignar un dato a una variable.</h2>
 Cuando asignamos un determinado tipo de datos a una variable, se llama declaración de variable. Por ejemplo, en el siguiente ejemplo, mi nombre se asigna a una variable first_name. El signo igual es un operador de asignación. Asignar significa almacenar datos en la variable.
@@ -25,13 +28,13 @@ Cuando asignamos un determinado tipo de datos a una variable, se llama declaraci
 Usemos las funciones integradas print() y len() . La función de impresión toma un número ilimitado de argumentos. Un argumento es un valor que se puede pasar o poner dentro del paréntesis de la función, vea el ejemplo a continuación.
 </br>
 
-<!--<image src="./img/variables.png" alt="Descripción de la imagen">-->
+<image src="./img/asignacion_variable.png" alt="Descripción de la imagen">
 
 <h2 style="color:#15A7E1">Declarar múltiples variables en una linea.</h2>
 También disponemos de la opción de declarar múltiples variables en una misma línea. Solo debemos seguir el orden de las variables a la hora de declarar las variables. De esta forma cada variable tendrá declarado su dato correctamente.
 </br>
 
-<!--<image src="./img/variables_multiples.png" alt="Descripción de la imagen"> -->
+
 
 <h2 style="color:#15A7E1">Entrada por teclado.</h2>
 Con la función incorporada input() asignamos los datos introducidos por los usuarios a la variable.
