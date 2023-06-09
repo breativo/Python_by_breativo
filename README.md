@@ -13,6 +13,7 @@ Con el curso Python by breativo, aprenderás a dominarás los principios básico
 # Temario 
 #### [00 Instalación Python.](https://github.com/breativo/Python_by_breativo/tree/master/00_Instalaci%C3%B3n_Python)
 #### [01 Variables Python.](https://github.com/breativo/Python_by_breativo/tree/master/01_Variables_Python)
+#### [02 Funciones integradas Python.](https://github.com/breativo/Python_by_breativo/tree/master/01_Variables_Python)
 # Enlaces de interés
 --
 # Encuéntrame
