@@ -151,6 +151,6 @@ Tambien disponemos de funciones aplicadas a iterables como map(), filter() y zip
 
 </br>
 
-[<< 01 Variables](../01_Variables_Python) | [03 Operadores >>](../03_Day_Operators/03_operators.md)
+[<< 01 Variables](../01_Variables_Python) | [03 Operadores >>](../03_Operadores_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)

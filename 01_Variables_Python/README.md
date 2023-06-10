@@ -4,7 +4,7 @@
 
 # Lección 2. Variables Python.
 
-<h2 style="color:#15A7E1">Definición variables.</h2>
+<h2 style="color:#15A7E1">Definición.</h2>
 Las variables almacenan datos en la memoria de una computadora. Una variable mnemotécnica es un nombre de variable que se recuerda y asocia fácilmente. Una variable puede tener un nombre corto (como x, y, z), pero se recomienda enfáticamente un nombre más descriptivo (nombre, apellido, edad, país).
 </br>
 En la parte izquierda hay que situar un identificador válido y a la derecha el dato que deseamos asignar al identificador.
