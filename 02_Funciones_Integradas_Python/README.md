@@ -145,3 +145,12 @@ La función reversed(secuencia) retorna un iterador revertido de los valores de 
 
 
 Tambien disponemos de funciones aplicadas a iterables como map(), filter() y zip().Estas funcines las veremos durante el curso.
+</br>
+
+🎉 Enhorabuena has superado la lección 🎉
+
+</br>
+
+[<< 01 Variables](../01_Variables_Python) | [03 Operadores >>](../03_Day_Operators/03_operators.md)
+
+![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)

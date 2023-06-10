@@ -85,7 +85,7 @@ Si concatenamos un numero entero int con una cadena, el numero debe convertirse 
 
 </br>
 
-[<< 00 Instalación](../readme.md) | [02 Funciones integradas >>](../03_Day_Operators/03_operators.md)
+[<< 00 Instalación](../00_Instalación_Python) | [02 Funciones integradas >>](../02_Funciones_Integradas_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
