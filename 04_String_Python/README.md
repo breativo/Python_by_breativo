@@ -107,8 +107,7 @@ Convierte todos los caracteres en mayúsculas a minúsculas y todos los caracter
 <h3 style="color:#15A7E1">startswith()</h3>
 Comprueba si la cadena comienza con la cadena especificada.
 </br>
-</br>
-Si queremos comenzar desde el extremo derecho, podemos usar la indexación negativa. -1 es el último índice.
+
 
 </br>
 
