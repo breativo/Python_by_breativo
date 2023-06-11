@@ -4,7 +4,8 @@
 
 # Lección 3. Operadores Python.
 
-<h2 style="color:#15A7E1">Definición.</h2>
+<h2 style="color:#15A7E1">Definición
+.</h2>
 Los operadores son símbolos que le indican al intérprete que realice una operación específica, como aritmética, comparación, lógica, etc.
 
 Estos son los diferentes tipos de operadores en Python:
@@ -26,18 +27,23 @@ En cuanto a los operadores aritméticos, estos permiten realizar las diferentes 
 </br>
 </br>
 <image src="./img/operadores_aritmétricos.png" alt="Descripción de la imagen">
+<image src="./img/operadores_aritmetricos_codigo.png" alt="Descripción de la imagen">
+
 
 <h2 style="color:#15A7E1">Operadores comparación.</h2>
 Un operador comparación se emplea para comparar y establecer la relación entre ellos. Devuelve un valor booleano (true o false) basado en la condición.
 </br>
 </br>
 <image src="./img/operadores_comparacion.png" alt="Descripción de la imagen">
+<image src="./img/operadores_comparacion_codigo_uno.png" alt="Descripción de la imagen">
+<image src="./img/operadores_comparacion_codigo_dos.png" alt="Descripción de la imagen">
 
 <h2 style="color:#15A7E1">Operadores bit a bit.</h2>
 Los operadores a nivel de bits actúan sobre los operandos como si fueran una cadena de dígitos binarios. Como su nombre indica, actúan sobre los operandos bit a bit.
 </br>
 </br>
 <image src="./img/operadores_bit_bit.png" alt="Descripción de la imagen">
+<image src="./img/operadores_bit_bit_codigo.png" alt="Descripción de la imagen">
 
 <h2 style="color:#15A7E1">Operadores asignación.</h2>
 El operador de asignación se utiliza para asignar un valor a una variable. Como te he mencionado en otras secciones, este operador es el signo =.
@@ -48,16 +54,21 @@ Por ejemplo, x += 1 es lo mismo que x = x + 1. Los operadores compuestos realiza
 </br>
 </br>
 <image src="./img/operadores_asignación.png" alt="Descripción de la imagen">
+<image src="./img/operadores_asignacion_codigo_uno.png" alt="Descripción de la imagen">
+<image src="./img/operadores_asignacion_codigo_dos.png" alt="Descripción de la imagen">
+
 <h2 style="color:#15A7E1">Operadores lógicos.</h2>
 Se utiliza un operador lógico para tomar una decisión basada en múltiples condiciones. Los operadores lógicos utilizados en Python son  and, or y not.
 </br>
 </br>
 <image src="./img/operadores_logicos.png" alt="Descripción de la imagen">
+<image src="./img/operadores_logicos_codigo.png" alt="Descripción de la imagen">
 <h2 style="color:#15A7E1">Operadores pertenencia.</h2>
 Los operadores de pertenencia se utilizan para comprobar si un valor o variable se encuentran en una secuencia (list, tuple, dict, set o str).
 </br>
 </br>
-<image src="./img/operadores_pertenencia.png" alt="Descripción de la imagen">
+<image src="./img/operadores_pertenencia.png" alt="Descripción de la imagen"><image src="./img/operadores_pertenencia_codigo.png" alt="Descripción de la imagen">
+
 <h2 style="color:#15A7E1">Operadores identidad.</h2>
 los operadores de identidad se utilizan para comprobar si dos variables son, o no, el mismo objeto.
 is y is not son operadores de identidad.
@@ -70,6 +81,7 @@ Ten en cuenta que dos valores, cuando son iguales, no implica necesariamente que
 </br>
 </br>
 <image src="./img/operadores_identidad.png" alt="Descripción de la imagen">
+<image src="./img/operadores_identidad_codigo.png" alt="Descripción de la imagen">
 </br>
 
 🎉 Enhorabuena has superado la lección 🎉

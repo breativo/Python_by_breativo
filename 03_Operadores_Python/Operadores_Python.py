@@ -15,6 +15,7 @@ Operadores aritmétricos
 ** (exponente)-->(realiza el exponente del número a la izquierda elevado al número de la derecha)
 // (cociente)-->(calcula el cociente de la división entre los números que están a su izquierda y derecha)
 '''
+
 ## suma(+)
 print(2+2) # 4
 
@@ -36,6 +37,7 @@ print(2**3) # 8
 ## división, con resultado de número entero
 print(18//5) # 3
 
+
 '''
 Operadores comparación
 == -->igual
@@ -47,6 +49,7 @@ Operadores comparación
 
 Cone ste tipo de operadores siempre obtenmos un resultado boolean (True o False)
 '''
+
 
 ## igual (==)
 print( 2 == 2) # true
@@ -90,6 +93,7 @@ print( first_string > second_string)  # false
 print( second_string > first_string)  # true
 print( first_string == third_string)  # false
 
+
 '''
 Operadores bit a bit
 &	-->Realiza bit a bit la operación AND en los operandos	
@@ -99,6 +103,8 @@ Operadores bit a bit
 >>	-->Realiza un desplazamiento a la derecha bit a bit. Desplaza los bits del operador de la izquierda a la derecha tantos bits como indica el operador de la derecha	
 <<	-->Realiza un desplazamiento a la izquierda bit a bit. Desplaza los bits del operando de la izquierda a la izquierda tantos bits como especifique el operador de la derecha
 '''
+
+
 x=2
 y=7
 print(x | y) # 7
@@ -107,6 +113,7 @@ print(x & y) # 2
 print(x << 1) # 4
 print(x >> 1) # 1
 print(~x) # -3
+
 
 '''
 Operadores asignación
@@ -124,6 +131,8 @@ Operadores asignación
 >>=
 >>=
 '''
+
+
 ## asignación (=)
 a=7
 y=2
@@ -193,6 +202,7 @@ Operadores pertenencia
 in     -->Devuelve True si el valor se encuentra en una secuencia; False en caso contrario. 
 not in -->Devuelve True si el valor no se encuentra en una secuencia; False en caso contrario.
 '''
+
 ## in
 my_list=[0,2,4,6,8]
 print(4 in my_list) # true
@@ -205,8 +215,9 @@ print(1 not in my_list) # true
 '''
 Operadores identidad
 is	   -->Devuelve True si ambos operandos hacen referencia al mismo objeto; False en caso contrario.
-is not -->Devuelve True si ambos operandos no hacen referencia al mismo objeto; False en caso contrario.
+is not -->Devu0elve True si ambos operandos no hacen referencia al mismo objeto; False en caso contrario.
 '''
+
 ## is
 x=1
 y=2
