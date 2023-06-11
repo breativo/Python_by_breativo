@@ -88,6 +88,6 @@ Ten en cuenta que dos valores, cuando son iguales, no implica necesariamente que
 
 </br>
 
-[<< 02 Funciones integradas](../02_Funciones_integradas_Python) | [04 String>>](../03_Operadores_Python)
+[<< 02 Funciones integradas](../02_Funciones_Integradas_Python) | [04 String>>](../04_String_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
