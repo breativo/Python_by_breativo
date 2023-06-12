@@ -156,6 +156,16 @@ my_name='breativo developer'
 print(my_name.rfind('e')) # 16
 
 
+## format()
+my_name='breativo'
+print('My name is {}'.format(my_name)) # My name is breativo
+
+
+## index()
+my_string='breativo developer'
+print(my_string.index('ti')) # 4
+
+
 ## rindex()
 my_name='breativo'
 my_sub_string='ti'
@@ -191,7 +201,18 @@ my_variable='123'
 print(my_variable.isdigit()) # true
 
 my_variable='ciento veinti tres'
-print(my_variable.isdigit()) # fasle 
+print(my_variable.isdigit()) # false 
+
+
+## isnumeric()
+my_numbers='20'
+print(my_numbers.isnumeric()) # true
+
+my_numbers='20.0'
+print(my_numbers.isnumeric()) # false
+
+my_numbers='dos'
+print(my_numbers.isnumeric()) # false
 
 
 ## isidentifier()
@@ -208,6 +229,17 @@ print(my_name.islower()) # true
 
 my_name='BreatiVo'
 print(my_name.islower()) # fasle
+
+
+## isupper()
+my_name='breativo'
+print(my_name.isupper()) # false
+
+my_name='Breativo'
+print(my_name.isupper()) # false
+
+my_name='BREATIVO'
+print(my_name.isupper()) # true
 
 
 ## join()

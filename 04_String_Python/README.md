@@ -120,10 +120,14 @@ Devuelve el índice de la última aparición de una subcadena, si no se encuentr
 <image src="./img/rfind.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">format()</h3>
 Formatea la cadena en una salida diferente.
-
+</br>
+</br>
+<image src="./img/format.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">index()</h3>
 Devuelve el índice más bajo de una subcadena, los argumentos adicionales indican el índice inicial y final (predeterminado 0 y longitud de cadena - 1). Si no se encuentra la subcadena, genera un valueError.
- alt="Descripción de la imagen">
+ </br>
+</br>
+<image src="./img/index.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">rindex()</h3>
 Devuelve el índice más alto de una subcadena, los argumentos adicionales indican el índice inicial y final (predeterminado 0 y longitud de la cadena - 1).
 </br>
@@ -151,6 +155,9 @@ Comprueba si todos los caracteres de una cadena son números (0-9 y algunos otro
 <image src="./img/isdigit.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">isnumeric()</h3>
 Comprueba si todos los caracteres de una cadena son números o están relacionados con números (al igual que isdigit(), solo acepta más símbolos, como ½).
+</br>
+</br>
+<image src="./img/isnumeric.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">isidentifier()</h3>
 Busca un identificador válido; verifica si una cadena es un nombre de variable válido.
 </br>
@@ -163,6 +170,9 @@ Comprueba si todos los caracteres del alfabeto en la cadena están en minúscula
 <image src="./img/islower.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">isupper()</h3>
 Comprueba si todos los caracteres del alfabeto en la cadena están en mayúsculas.
+</br>
+</br>
+<image src="./img/isupper.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">join()</h3>
 Devuelve una cadena concatenada.
 </br>
