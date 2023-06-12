@@ -7,13 +7,20 @@
 <h2 style="color:#15A7E1">Definición de cadenas de texto (String).</h2>
 El texto es un tipo de datos de cadena. Cualquier tipo de datos escrito como texto es una cadena. Todos los datos entre comillas simples, dobles o triples son cadenas. Existen diferentes métodos de cadena y funciones integradas para manejar tipos de datos de cadena.
 </br>
-
+</br>
+<image src="./img/cadena_texto.png" alt="Descripción de la imagen">
 Para verificar la longitud de una cadena, use el método len().
-
 </br>
 La cadena multilínea se crea usando comillas triples simples (''') o triples dobles ("""). Consulte el ejemplo a continuación.
+</br>
+</br>
+<image src="./img/cadena_texto_multilinea.png" alt="Descripción de la imagen">
+
 <h3 style="color:#15A7E1">Concatenación de cadenas de texto.</h3>
 Combinar o conectar cadenas se llama concatenación. 
+</br>
+</br>
+<image src="./img/cadena_texto_concatenacion.png" alt="Descripción de la imagen">
 
 <h3 style="color:#15A7E1">Secuencias de escape en cadenas de texto.</h3>
 En Python y otros lenguajes de programación \ seguido de un carácter es una secuencia de escape. Veamos los caracteres de escape más comunes:
@@ -23,6 +30,10 @@ En Python y otros lenguajes de programación \ seguido de un carácter es una se
 * Barra invertida (\\\\).
 * Una frase (') (\\')
 * Comillas dobles (") (\\")
+  
+</br>
+</br>
+<image src="./img/cadena_texto_secuencia_escape.png" alt="Descripción de la imagen">
 
 <h2 style="color:#15A7E1">Formato de cadenas de texto.</h2>
 <h3 style="color:#15A7E1">Formato de cadena de estilo antiguo (% operador).</h3>
@@ -38,25 +49,44 @@ En Python hay muchas formas de formatear cadenas. En esta sección, cubriremos a
 
 <h3 style="color:#15A7E1">Interpolación de cadenas / cadenas f (Python 3.6+).</h3>
 Otro nuevo formato de cadena es la interpolación de cadenas, f-strings. Las cadenas comienzan con f y podemos inyectar los datos en sus posiciones correspondientes.
+</br>
+</br>
+<image src="./img/cadena_texto_formato.png" alt="Descripción de la imagen">
 
 <h2 style="color:#15A7E1">Cadenas de Python como secuencias de caracteres.</h2>
 Las cadenas de Python son secuencias de caracteres y comparten sus métodos básicos de acceso con otras secuencias de objetos ordenadas de Python: listas y tuplas. La forma más sencilla de extraer caracteres individuales de cadenas es descomprimirlos en las variables correspondientes.
 
 <h3 style="color:#15A7E1">Desempaquetado de cadena de texto.</h3>
+Las cadenas de texto se pueden desempaquetar en variables.
+</br>
+</br>
+<image src="./img/cadena_texto_desempaquetado.png" alt="Descripción de la imagen">
 
 <h3 style="color:#15A7E1">Acceso a caracteres en cadenas de texto por índice.</h3>
 En la programación, el conteo comienza desde cero. Por lo tanto, la primera letra de una cadena tiene un índice cero y la última letra de una cadena es la longitud de una cadena menos uno.
+</br>
+</br>
+<image src="./img/cadena_texto_acceso.png" alt="Descripción de la imagen">
 
 <h3 style="color:#15A7E1">Cortar cadenas de texto.</h3>
 En python podemos dividir cadenas en subcadenas.
+</br>
+</br>
+<image src="./img/cadena_texto_cortar.png" alt="Descripción de la imagen">
 
 <h3 style="color:#15A7E1">Invertir cadenas de texto.</h3>
 Podemos invertir cadenas fácilmente en python.
+</br>
+</br>
+<image src="./img/cadena_texto_invertir.png" alt="Descripción de la imagen">
 
-<h3 style="color:#15A7E1">Saltar caracteresal cortar cadenas de texto.</h3>
+<h3 style="color:#15A7E1">Saltar caracteres al cortar cadenas de texto.</h3>
 Es posible omitir caracteres durante el corte pasando el argumento de paso al método de corte.
+</br>
+</br>
+<image src="./img/cadena_texto_saltar_caracteres.png" alt="Descripción de la imagen">
 
-<h2 style="color:#15A7E1">Métodos de cadena.</h2>
+<h2 style="color:#15A7E1">Métodos de cadena de texto.</h2>
 Hay muchos métodos de cadena que nos permiten formatear cadenas. 
 <h3 style="color:#15A7E1">capitalize ()</h3>
 Convierte el primer carácter de la cadena en letra mayúscula.
@@ -115,6 +145,6 @@ Comprueba si la cadena comienza con la cadena especificada.
 
 </br>
 
-[<< 03 Operadores](../03_Operadores_Python) | [04 Listas>>](../04_Listas_Python)
+[<< 03 Operadores](../03_Operadores_Python) | [04 Listas >>](../04_Listas_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
