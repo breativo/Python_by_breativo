@@ -119,9 +119,12 @@ print(my_name[0:8:2]) # betv
 
 
 # Métodos de cadenas de texto
+
+
 ## capitalize()
 my_name='breativo'
 print(my_name.capitalize()) # Breativo
+
 
 ## count()
 my_name='breativo'
@@ -158,12 +161,14 @@ my_name='breativo'
 my_sub_string='ti'
 print(my_name.rindex(my_sub_string)) # 4
 
+
 ## isalnum()
 my_variable = 'firstdayofPythoncourse'
 print(my_variable.isalnum()) # true
 
 my_variable = 'first day of Python course'
 print(my_variable.isalnum()) # false
+
 
 ## isalpha()
 my_name='breativo'
@@ -240,7 +245,9 @@ my_name='BreaTivO'
 print(my_name.swapcase()) # bREAtIVo
 
 
-# statswith()
+# startswith()
 my_name='breativo developer'
 print(my_name.startswith('breativo')) # true
 print(my_name.startswith('Python')) # false
+
+

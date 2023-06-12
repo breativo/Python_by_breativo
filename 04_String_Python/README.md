@@ -90,52 +90,114 @@ Es posible omitir caracteres durante el corte pasando el argumento de paso al m�
 Hay muchos métodos de cadena que nos permiten formatear cadenas. 
 <h3 style="color:#15A7E1">capitalize ()</h3>
 Convierte el primer carácter de la cadena en letra mayúscula.
+</br>
+</br>
+<image src="./img/capitalize.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">count()</h3>
 Devuelve ocurrencias de subcadena en cadena, count(subcadena, inicio=.., final=..). El inicio es una indexación inicial para contar y el final es el último índice para contar.
+</br>
+</br>
+<image src="./img/count.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">endswith()</h3>
-Comprueba si una cadena termina con un final específico
+Comprueba si una cadena termina con un final específico.
+</br>
+</br>
+<image src="./img/endswith.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">expandtabs()</h3>
 Reemplaza el carácter de tabulación con espacios, el tamaño de tabulación predeterminado es 8. Toma el argumento de tamaño de tabulación.
+</br>
+</br>
+<image src="./img/expandtabs.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">find()</h3>
 Devuelve el índice de la primera aparición de una subcadena, si no se encuentra devuelve -1.
+</br>
+</br>
+<image src="./img/find.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">rfind()</h3>
 Devuelve el índice de la última aparición de una subcadena, si no se encuentra devuelve -1.
-<h3 style="color:#15A7E1">format ()</h3>
+</br>
+</br>
+<image src="./img/rfind.png" alt="Descripción de la imagen">
+<h3 style="color:#15A7E1">format()</h3>
 Formatea la cadena en una salida diferente.
-<h3 style="color:#15A7E1">index ()</h3>
+
+<h3 style="color:#15A7E1">index()</h3>
 Devuelve el índice más bajo de una subcadena, los argumentos adicionales indican el índice inicial y final (predeterminado 0 y longitud de cadena - 1). Si no se encuentra la subcadena, genera un valueError.
+ alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">rindex()</h3>
 Devuelve el índice más alto de una subcadena, los argumentos adicionales indican el índice inicial y final (predeterminado 0 y longitud de la cadena - 1).
+</br>
+</br>
+<image src="./img/rindex.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">isalnum()</h3>
 Comprueba el carácter alfanumérico.
+</br>
+</br>
+<image src="./img/isalnum.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">isalpha()</h3>
 Comprueba si todos los elementos de cadena son caracteres alfabéticos (az y AZ).
+</br>
+</br>
+<image src="./img/isalpha.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">isdecimal()</h3>
 Comprueba si todos los caracteres de una cadena son decimales (0-9).
+</br>
+</br>
+<image src="./img/isdecimal.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">isdigit()</h3>
 Comprueba si todos los caracteres de una cadena son números (0-9 y algunos otros caracteres Unicode para números).
+</br>
+</br>
+<image src="./img/isdigit.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">isnumeric()</h3>
 Comprueba si todos los caracteres de una cadena son números o están relacionados con números (al igual que isdigit(), solo acepta más símbolos, como ½).
 <h3 style="color:#15A7E1">isidentifier()</h3>
 Busca un identificador válido; verifica si una cadena es un nombre de variable válido.
+</br>
+</br>
+<image src="./img/isidentifier.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">islower()</h3>
 Comprueba si todos los caracteres del alfabeto en la cadena están en minúsculas.
+</br>
+</br>
+<image src="./img/islower.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">isupper()</h3>
 Comprueba si todos los caracteres del alfabeto en la cadena están en mayúsculas.
 <h3 style="color:#15A7E1">join()</h3>
 Devuelve una cadena concatenada.
+</br>
+</br>
+<image src="./img/join.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">strip ()</h3>
 Elimina todos los caracteres dados desde el principio y el final de la cadena.
+</br>
+</br>
+<image src="./img/strip.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">replace()</h3>
 Reemplaza la subcadena con una cadena dada.
+</br>
+</br>
+<image src="./img/replace.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">split()</h3>
 Divide la cadena, utilizando la cadena dada o el espacio como separador.
+</br>
+</br>
+<image src="./img/split.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">title()</h3>
 Devuelve una cadena de título en mayúsculas.
+</br>
+</br>
+<image src="./img/title.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">swapcase()</h3>
 Convierte todos los caracteres en mayúsculas a minúsculas y todos los caracteres en minúsculas a caracteres en mayúsculas.
+</br>
+</br>
+<image src="./img/swapcase.png" alt="Descripción de la imagen">
 <h3 style="color:#15A7E1">startswith()</h3>
 Comprueba si la cadena comienza con la cadena especificada.
+</br>
+</br>
+<image src="./img/startwith.png" alt="Descripción de la imagen">
 </br>
 
 
