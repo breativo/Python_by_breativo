@@ -24,7 +24,6 @@ print(my_list) # ['breativo', True, 0, 'Python']
 print(len(my_list)) # 4
 
 
-
 # Acceso a los elementos de una lista
 ##  indexación positiva
 my_list=[1,2,3,4,5,6,7,8,9,0]
@@ -37,7 +36,6 @@ print(my_list[9]) # 0
 my_list=[1,2,3,4,5,6,7,8,9,0]
 print(my_list[-1]) # 0
 print(my_list[-3]) # 8
-
 
 
 # Desempaquetado de los elementos de una lista en variables
@@ -53,7 +51,6 @@ my_name, my_level, *my_skill  = my_list
 print(my_name)  # breativo
 print(my_level) # Full Stack
 print(my_skill) # ['Python', 'Java', 'JavaScript']
-
 
 
 # Cortar elementos de una lista
@@ -124,7 +121,6 @@ my_list=['Python','Java','JavaScript']
 my_list.pop(1)
 print(my_list) #  ['Python', 'JavaScript']
 
-
 ## del()
 my_list=['Python','Java','JavaScript','Kotlin', 'React', 'Swift', 'TypeScript']
 del my_list[1]
@@ -133,8 +129,7 @@ print(my_list) # ['Python', 'JavaScript', 'Kotlin', 'React', 'Swift', 'TypeScrip
 del my_list[3:]
 print(my_list) # ['Python', 'JavaScript', 'Kotlin']
 
-del my_list
-## print(my_list) # no existe la lista.
+del my_list    # print(my_list) # no existe la lista.
 
 
 # Vaciar elementos de una lista
@@ -150,7 +145,6 @@ my_new_list=my_list.copy()
 print(my_new_list) # ['Python', 'Java', 'JavaScript', 'Kotlin', 'React', 'Swift', 'TypeScript']
 
 my_new_list=my_list # Los cambios se realizaran en ambas listas, con copy() lo evitamos
-
 
 
 # Unir listas
