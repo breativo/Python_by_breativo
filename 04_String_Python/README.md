@@ -217,6 +217,6 @@ Comprueba si la cadena comienza con la cadena especificada.
 
 </br>
 
-[<< 03 Operadores](../03_Operadores_Python) | [05 Listas >>](../05_Lists_Python)
+[<< 03 Operadores](../03_Operadores_Python) | [05 Listas >>](../05_Listas_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
