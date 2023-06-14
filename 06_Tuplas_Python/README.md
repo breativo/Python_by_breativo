@@ -55,6 +55,7 @@ La indexación positiva significa acceder a los datos desde la posicion 0, que e
 La indexación negativa significa comenzar desde el final, -1 se refiere al último elemento, -2 se refiere al penúltimo y el negativo de la longitud de la lista/tupla se refiere al primer elemento.
 
 </br>
+</br>
 <image src="./img/dividir_tuplas.png" alt="Descripción de la imagen">
 </br>
 
