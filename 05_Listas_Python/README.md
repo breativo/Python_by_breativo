@@ -127,7 +127,7 @@ Devuelve la lista ordenada sin modificar la lista original.
 
 </br>
 
-[<< 04 String](../04_String_Python) | [06 tuplas >>](../06_Tuplas_Python)
+[<< 04 String](../04_String_Python) | [06 Tuplas >>](../06_Tuplas_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
