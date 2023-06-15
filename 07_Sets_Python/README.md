@@ -66,6 +66,7 @@ El valor de retorno del método pop () es el elemento eliminado.
 
 <h2 style="color:#15A7E1">Borrar los elementos de un conjunto.</h2>
 Si queremos borrar o vaciar el conjunto, usamos el método clear().
+
 </br>
 </br>
 <image src="./img/borrar_elementos_set.png" alt="Descripción de la imagen">
@@ -74,6 +75,7 @@ Si queremos borrar o vaciar el conjunto, usamos el método clear().
 <h2 style="color:#15A7E1">Borrar un conjunto.</h2>
 Para eliminar o borrar un conjunto nos ayudamos del operador del.
 
+</br>
 </br>
 <image src="./img/borrar_set.png" alt="Descripción de la imagen">
 </br>
@@ -108,6 +110,7 @@ Un conjunto puede ser un subconjunto o superconjunto de otros conjuntos:
 * Súper conjunto: issuperset().
 
 </br>
+</br>
 <image src="./img/comprobar_subconjunto_set
 .png" alt="Descripción de la imagen">
 </br>
@@ -121,6 +124,7 @@ El método difference() devuelve un conjunto que es la diferencia entre dos conj
 <h3 style="color:#15A7E1">Comprobar diferencias simétricas entre dos conjuntos.</h3>
 symmetric_difference() devuelve la diferencia simétrica entre dos conjuntos. Significa que devuelve un conjunto que contiene todos los elementos de ambos conjuntos, excepto los elementos que están presentes en ambos conjuntos, matemáticamente: (A\B) ∪ (B\A).
 
+</br>
 </br>
 <image src="./img/diferencias_set
 .png" alt="Descripción de la imagen">
