@@ -41,7 +41,7 @@ Para verificar si existe un elemento en un conjunto, usamos el operador de membr
 
 <h2 style="color:#15A7E1">Agregar elementos en un conjunto.</h2>
 Una vez que se crea un conjunto, no podemos cambiar ningún elemento. Pero si podemos agregar elementos adicionales.
-
+</br>
 </br>
 
 * Agrega un elemento usando add()
@@ -66,7 +66,7 @@ El valor de retorno del método pop () es el elemento eliminado.
 
 <h2 style="color:#15A7E1">Borrar los elementos de un conjunto.</h2>
 Si queremos borrar o vaciar el conjunto, usamos el método clear().
-
+</br>
 </br>
 <image src="./img/borrar_elementos_set.png" alt="Descripción de la imagen">
 </br>
@@ -94,7 +94,7 @@ En Python también se utiliza el operador | para realizar la unión de dos o má
 
 <h2 style="color:#15A7E1">Búsqueda de elementos de intersección.</h2>
 El método intersection() devuelve un conjunto de elementos que están en ambos conjuntos.
-
+</br>
 </br>
 <image src="./img/buscar_elementos_set.png" alt="Descripción de la imagen">
 </br>
