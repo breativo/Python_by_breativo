@@ -113,8 +113,7 @@ Un conjunto puede ser un subconjunto o superconjunto de otros conjuntos:
 
 </br>
 </br>
-<image src="./img/comprobar_conjunto_set
-.png" alt="Descripción de la imagen">
+<image src="./img/comprobar_subconjunto.png" alt="Descripción de la imagen">
 </br>
 
 <h2 style="color:#15A7E1">Comprobar la diferencia de los elementos entre dos conjuntos.</h2>
@@ -127,7 +126,7 @@ symmetric_difference() devuelve la diferencia simétrica entre dos conjuntos. Si
 
 </br>
 </br>
-<image src="./img/diferencias
+<image src="./img/comprobar_diferencias
 .png" alt="Descripción de la imagen">
 </br>
 
