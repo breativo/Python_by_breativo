@@ -69,7 +69,7 @@ Si queremos borrar o vaciar el conjunto, usamos el método clear().
 
 </br>
 </br>
-<image src="./img/borrar_elementos_set.png" alt="Descripción de la imagen">
+<image src="./img/borrar_elementos.png" alt="Descripción de la imagen">
 </br>
 
 <h2 style="color:#15A7E1">Borrar un conjunto.</h2>
@@ -77,7 +77,7 @@ Para eliminar o borrar un conjunto nos ayudamos del operador del.
 
 </br>
 </br>
-<image src="./img/borrar_set.png" alt="Descripción de la imagen">
+<image src="./img/borrar_conjunto.png" alt="Descripción de la imagen">
 </br>
 
 <h2 style="color:#15A7E1">Union de varios conjuntos.</h2>
