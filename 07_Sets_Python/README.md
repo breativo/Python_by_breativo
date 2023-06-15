@@ -126,8 +126,7 @@ symmetric_difference() devuelve la diferencia simétrica entre dos conjuntos. Si
 
 </br>
 </br>
-<image src="./img/comprobar_diferencias
-.png" alt="Descripción de la imagen">
+<image src="./img/diferencias.png" alt="Descripción de la imagen">
 </br>
 
 <h2 style="color:#15A7E1">Conjuntos disjuntos.</h2>
