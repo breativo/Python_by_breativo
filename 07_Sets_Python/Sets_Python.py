@@ -110,8 +110,7 @@ print(my_set_first) # {'breativo', 1, 2, 3, 4, 5, 0, 6, 7, 8, 9, 'Python'}
 ## Operador |
 my_set_first={'breativo', 1, 2, 3, 4, 5}
 my_set_second={'Python', 5, 5, 6, 6, 7, 8, 9, 0}
-print(my_set_first | my_set_second) # 
-print('---------------')
+print(my_set_first | my_set_second) #  {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'Python', 'breativo'}
 
 
 # Buscar elementos en ambos set

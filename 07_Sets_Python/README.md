@@ -92,9 +92,13 @@ Podemos unir dos conjuntos usando el método union() o update().
 </br>
 <image src="./img/unir_set.png" alt="Descripción de la imagen">
 </br>
+</br>
 
 En Python también se utiliza el operador | para realizar la unión de dos o más conjuntos.
-
+</br>
+</br>
+<image src="./img/unir_operador.png" alt="Descripción de la imagen">
+</br>
 
 
 <h2 style="color:#15A7E1">Búsqueda de elementos de intersección.</h2>
