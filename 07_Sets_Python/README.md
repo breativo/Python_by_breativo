@@ -1,4 +1,4 @@
-# Set Python
+# Sets Python
 
 ![Variables Python](https://github.com/breativo/Python_by_breativo/blob/master/img/Banner_Python_by_breativo.png?raw=true)
 
