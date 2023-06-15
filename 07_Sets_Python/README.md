@@ -9,24 +9,23 @@ El conjunto es una colección de elementos. Déjame llevarte de regreso a tu lec
 
 
 <h2 style="color:#15A7E1">Cómo crear un set.</h2>
-Usamos corchetes, {} para crear un conjunto o la función integrada set() .
-</br>
+Usamos corchetes, {} para crear un conjunto o la función integrada set().
 
 * Crear un conjunto vacío
 * Creación de un conjunto con elementos iniciales
-  
+
 </br>
 <image src="./img/sintaxis_set.png" alt="Descripción de la imagen">
 </br>
 Con el método len() podemos conocer la longitud de un conjunto.
-</br>
+
 </br>
 <image src="./img/len_set.png" alt="Descripción de la imagen">
 </br>
 
 <h2 style="color:#15A7E1">Acceder a elementos en un conjunto.</h2>
 Para acceder a los elementos debemos usar un bucle. Los bucles se utiliza para recorrer los elementos de un objeto iterable (lista, tupla, conjunto, diccionario, …) y ejecutar un bloque de código. En cada paso de la iteración se tiene en cuenta a un único elemento del objeto iterable, sobre el cuál se pueden aplicar una serie de operaciones.
-</br>
+
 </br>
 <image src="./img/acceder_set.png" alt="Descripción de la imagen">
 </br>
@@ -60,6 +59,7 @@ También puede usar el método pop () para eliminar un elemento, pero este méto
 El valor de retorno del método pop () es el elemento eliminado.
 
 </br>
+</br>
 <image src="./img/eliminar_elementos_set.png" alt="Descripción de la imagen">
 </br>
 
@@ -87,6 +87,7 @@ Podemos unir dos conjuntos usando el método union() o update().
 * Update() Actualizar Este método inserta un conjunto en un conjunto dado.
 
 </br>
+</br>
 <image src="./img/unir_set.png" alt="Descripción de la imagen">
 </br>
 
@@ -96,6 +97,7 @@ En Python también se utiliza el operador | para realizar la unión de dos o má
 
 <h2 style="color:#15A7E1">Búsqueda de elementos de intersección.</h2>
 El método intersection() devuelve un conjunto de elementos que están en ambos conjuntos.
+
 </br>
 </br>
 <image src="./img/buscar_elementos_set.png" alt="Descripción de la imagen">
@@ -116,10 +118,9 @@ Un conjunto puede ser un subconjunto o superconjunto de otros conjuntos:
 </br>
 
 <h2 style="color:#15A7E1">Comprobar la diferencia de los elementos entre dos conjuntos.</h2>
+
 <h3 style="color:#15A7E1">Comprobar diferencias entre dos conjuntos.</h3>
 El método difference() devuelve un conjunto que es la diferencia entre dos conjuntos. Intentemos averiguar cuál será la diferencia entre dos conjuntos A y B. Entonces (conjunto A – conjunto B) serán los elementos presentes en el conjunto A pero no en B y (conjunto B – conjunto A) serán los elementos presentes en el conjunto B pero no en el conjunto A. 
-
-
 
 <h3 style="color:#15A7E1">Comprobar diferencias simétricas entre dos conjuntos.</h3>
 symmetric_difference() devuelve la diferencia simétrica entre dos conjuntos. Significa que devuelve un conjunto que contiene todos los elementos de ambos conjuntos, excepto los elementos que están presentes en ambos conjuntos, matemáticamente: (A\B) ∪ (B\A).
@@ -134,6 +135,7 @@ symmetric_difference() devuelve la diferencia simétrica entre dos conjuntos. Si
 Si dos conjuntos no tienen un elemento o elementos comunes, los llamamos conjuntos disjuntos. Podemos verificar si dos conjuntos son conjuntos o disjuntos usando el método isdisjoint().
 
 </br>
+</br>
 <image src="./img/conjuntos_disjuntos_set.png" alt="Descripción de la imagen">
 </br>
 
@@ -141,8 +143,8 @@ Si dos conjuntos no tienen un elemento o elementos comunes, los llamamos conjunt
 Podemos convertir lista en conjunto y conjunto en lista. La conversión de la lista al conjunto elimina los duplicados y solo se reservarán elementos únicos.
 
 </br>
-<image src="./img/convertir_set.png" alt="Descripción de la imagen">
 </br>
+<image src="./img/convertir_set.png" alt="Descripción de la imagen">
 </br>
 </br>
 
