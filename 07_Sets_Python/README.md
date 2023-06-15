@@ -26,14 +26,14 @@ Con el método len() podemos conocer la longitud de un conjunto.
 
 <h2 style="color:#15A7E1">Acceder a elementos en un conjunto.</h2>
 Para acceder a los elementos debemos usar un bucle. Los bucles se utiliza para recorrer los elementos de un objeto iterable (lista, tupla, conjunto, diccionario, …) y ejecutar un bloque de código. En cada paso de la iteración se tiene en cuenta a un único elemento del objeto iterable, sobre el cuál se pueden aplicar una serie de operaciones.
-
+</br>
 </br>
 <image src="./img/acceder_set.png" alt="Descripción de la imagen">
 </br>
 
 <h2 style="color:#15A7E1">Comprobar elementos en un conjunto.</h2>
 Para verificar si existe un elemento en un conjunto, usamos el operador de membresía.
-
+</br>
 </br>
 <image src="./img/comprobar_elementos_set.png" alt="Descripción de la imagen">
 </br>
