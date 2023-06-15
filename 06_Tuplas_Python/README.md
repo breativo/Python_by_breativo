@@ -98,6 +98,6 @@ No es posible eliminar un solo elemento en una tupla, pero es posible eliminar l
 
 </br>
 
-[<< 05 Listas](../05_Listas_Python) | [07 Set >>](../07_Set_Python)
+[<< 05 Listas](../05_Listas_Python) | [07 Sets >>](../07_Sets_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
