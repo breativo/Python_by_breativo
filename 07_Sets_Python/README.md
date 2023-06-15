@@ -19,7 +19,7 @@ Usamos corchetes, {} para crear un conjunto o la función integrada set() .
 <image src="./img/sintaxis_set.png" alt="Descripción de la imagen">
 </br>
 Con el método len() podemos conocer la longitud de un conjunto.
-
+</br>
 </br>
 <image src="./img/len_set.png" alt="Descripción de la imagen">
 </br>
