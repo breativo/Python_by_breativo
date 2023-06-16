@@ -156,7 +156,7 @@ Podemos convertir lista en conjunto y conjunto en lista. La conversión de la li
 
 </br>
 
-[<< 06 Tuplas](../06_Tuplas_Python) | [08 Diccionarios >>](../08_Diccionarios_Python)
+[<< 07 Sets](../07_Sets_Python) | [09 Condicionales >>](../09_Condicionales_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
