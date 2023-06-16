@@ -18,6 +18,11 @@ Para crear un diccionario usamos corchetes, {} o la función integrada dict() .
 </br>
 Para comprobar el número de pares 'clave: valor' de un diccionario utilizamos el método len().
 
+</br>
+</br>
+<image src="./img/len_diccionario.png" alt="Descripción de la imagen">
+</br>
+
 <h2 style="color:#15A7E1">Acceso a elementos del diccionario.</h2>
 Podemos acceder a los elementos del diccionario haciendo referencia a su nombre clave. Acceder a un elemento por nombre de clave genera un error si la clave no existe. Para evitar este error, primero debemos verificar si existe una clave o podemos usar el método get(). El método get() devuelve None, que es un tipo de datos de objeto NoneType, si la clave no existe.
 
