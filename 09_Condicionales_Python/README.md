@@ -20,7 +20,7 @@ Si la condición que sigue a la palabra clave if  se evalúa como verdadera, el 
 <image src="./img/syntaxis_condicionales.png" alt="Descripción de la imagen">
 </br>
 
-<h3 style="color:#15A7E1">Condicional if|else.</h3>
+<h3 style="color:#15A7E1">Condicional if | else.</h3>
 Opcionalmente, puedes agregar una respuesta else que se ejecutará si la condición es false.
 
 </br>
@@ -28,7 +28,7 @@ Opcionalmente, puedes agregar una respuesta else que se ejecutará si la condici
 <image src="./img/condicionales.png" alt="Descripción de la imagen">
 </br>
 
-<h3 style="color:#15A7E1">Condicional if|elif|else.</h3>
+<h3 style="color:#15A7E1">Condicional if | elif | else.</h3>
 Se pueden verificar varias condiciones al incluir una o más verificaciones elif después de su declaración if inicial. Ten en cuenta que solo se ejecutará una condición.
 
 </br>
@@ -36,8 +36,8 @@ Se pueden verificar varias condiciones al incluir una o más verificaciones elif
 <image src="./img/if_elif_else.png" alt="Descripción de la imagen">
 </br>
 
-<h2 style="color:#15A7E1">Declaración if-else en línea.</h2>
-También podemos usar declaraciones if-else en funciones de Python en línea. 
+<h2 style="color:#15A7E1">Declaración if | else en línea.</h2>
+También podemos usar declaraciones if | else en funciones de Python en línea. 
 
 </br>
 </br>
@@ -53,7 +53,7 @@ También podemos crear if anidados para la toma de decisiones.
 </br>
 
 <h2 style="color:#15A7E1">Condición If y operadores lógicos.</h2>
-Podemos evitar escribir condiciones anidadas usando los operadores lógicos and|or.
+Podemos evitar escribir condiciones anidadas usando los operadores lógicos and | or.
 <h3 style="color:#15A7E1">Operador and.</h3>
 Con el operador and se debe cumplir las dos condiciones para que se ejecute el bloque de código.
 </br>
