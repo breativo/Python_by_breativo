@@ -8,11 +8,11 @@
 Un diccionario es una colección de tipos de datos no ordenados, modificables (mutables) emparejados (clave: valor). Los diccionarios están compuestos de cualquier tipo de datos: cadena, booleano, lista, tupla, conjunto o un diccionario. 
 
 </br>
-Para crear un diccionario usamos corchetes, {} o la función integrada dict() .
+Para crear un diccionario usamos corchetes, {} o la función integrada dict().
+
 </br>
 </br>
 <image src="./img/sintaxis_diccionario.png" alt="Descripción de la imagen">
-</br>
 </br>
 <image src="./img/crear_diccionarios.png" alt="Descripción de la imagen">
 </br>
@@ -29,6 +29,7 @@ Podemos acceder a los elementos del diccionario haciendo referencia a su nombre 
 </br>
 </br>
 <image src="./img/acceso_elementos_diccionarios.png" alt="Descripción de la imagen">
+</br>
 
 <h2 style="color:#15A7E1">Acceso a elementos del diccionario con bucle for.</h2>
 Hay varias formas de recorrer los elementos de un diccionario: recorrer solo las claves, solo los valores o recorrer a la vez las claves y los valores. Con un bucle for podemos acceder a los datos de forma secuencial.

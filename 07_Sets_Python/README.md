@@ -15,8 +15,10 @@ Usamos corchetes, {} para crear un conjunto o la función integrada set().
 * Creación de un conjunto con elementos iniciales
 
 </br>
+</br>
 <image src="./img/sintaxis_set.png" alt="Descripción de la imagen">
 </br>
+
 Con el método len() podemos conocer la longitud de un conjunto.
 
 </br>
@@ -34,23 +36,25 @@ Para acceder a los elementos debemos usar un bucle. Los bucles se utiliza para r
 
 <h2 style="color:#15A7E1">Comprobar elementos en un conjunto.</h2>
 Para verificar si existe un elemento en un conjunto, usamos el operador de membresía.
+
 </br>
 </br>
 <image src="./img/comprobar_elementos_set.png" alt="Descripción de la imagen">
 </br>
 
-
 <h2 style="color:#15A7E1">Agregar elementos en un conjunto.</h2>
 Una vez que se crea un conjunto, no podemos cambiar ningún elemento. Pero si podemos agregar elementos adicionales.
-</br>
+
 </br>
 
 * Agrega un elemento usando add()
 * Agregar múltiples elementos usando update() La actualización() permite agregar múltiples elementos a un conjunto. La actualización () toma un argumento de lista.
 
 </br>
+</br>
 <image src="./img/agregar_elementos_set.png" alt="Descripción de la imagen">
 </br>
+
 <h2 style="color:#15A7E1">Eliminar elementos en un conjunto.</h2>
 El método discard() en Python elimina el elemento especificado del conjunto. Este método es diferente del método remove(), porque el método remove() generará un error si el elemento especificado no existe, y el método discard() no lo hará.
 
@@ -64,7 +68,6 @@ El valor de retorno del método pop () es el elemento eliminado.
 </br>
 <image src="./img/eliminar_elementos_set.png" alt="Descripción de la imagen">
 </br>
-
 
 <h2 style="color:#15A7E1">Borrar los elementos de un conjunto.</h2>
 Si queremos borrar o vaciar el conjunto, usamos el método clear().
@@ -92,14 +95,13 @@ Podemos unir dos conjuntos usando el método union() o update().
 </br>
 <image src="./img/unir_set.png" alt="Descripción de la imagen">
 </br>
-</br>
 
 En Python también se utiliza el operador | para realizar la unión de dos o más conjuntos.
+
 </br>
 </br>
 <image src="./img/unir_operador.png" alt="Descripción de la imagen">
 </br>
-
 
 <h2 style="color:#15A7E1">Búsqueda de elementos de intersección.</h2>
 El método intersection() devuelve un conjunto de elementos que están en ambos conjuntos.
@@ -149,6 +151,8 @@ Podemos convertir lista en conjunto y conjunto en lista. La conversión de la li
 </br>
 </br>
 <image src="./img/convertir_set.png" alt="Descripción de la imagen">
+</br>
+
 </br>
 </br>
 
