@@ -6,13 +6,15 @@ Condicionales Python
 
 # Sintaxis condicionales en Python
 
-# Sintaxis condicional if|else
+# Sintaxis condicional
 my_numbers= 3
 if my_numbers <= 3:
     print('Menor 3') # menor de 3
 print('Este print está fuera de la sentencia condicional, se ejecutara siempre')
 # Este print está fuera de la sentencia condicional, se ejecutara siempre
 
+
+# Sintaxis condicional if|else
 my_numbers= 3
 if my_numbers >= 3 :
     print('Mayor 3') 
@@ -32,10 +34,12 @@ elif my_numbers == 0:
 else:
     print('El número es mayor de 3') 
 
+
 # If|else en línea (Short Hand)
 my_numbers= 3
 print('mayor')if my_numbers < 4 else print('menor') # mayor
 print('mayor')if my_numbers > 4 else print('menor') # menor
+
 
 # Condicionales anidadas
 my_numbers= 3
@@ -62,6 +66,7 @@ if my_numbers > 1 and my_numbers < 4 :
     print('El número esta entre el 1 y el 4')
 else:
     print('El número no se encuentra entre el 1 y el 4') # El número no se encuentra entre el 1 y el 4
+
 
 ## Or
 my_numbers= 3
