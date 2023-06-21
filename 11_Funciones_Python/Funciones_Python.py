@@ -4,6 +4,7 @@ Funciones Python
 
 '''
 
+
 # Sintaxis función 
 ## Función sin parámetros
 def my_function():
@@ -11,11 +12,13 @@ def my_function():
 
 my_function() # Hola mundo
 
+
 ## Funcion con parámetros
 def my_function(name):
    return name
 
 print(my_function('breativo')) # breativo
+
 
 # Función sin parámetros
 def my_function():
@@ -31,6 +34,7 @@ def my_sum():
     print(a+b)
 
 my_sum() # 5
+
 
 # Función con parámetros
 ## Función un parámetro
@@ -48,6 +52,7 @@ def my_sum(number):
 print(my_sum(2)) # 4
 print(my_sum(5)) # 7
 
+
 ## Función varios parámetros
 def my_skill (first_skill, second_skill):
     message= 'My skills are  ' + first_skill + " and " + second_skill
@@ -61,6 +66,7 @@ def my_sum(first_number, second_number):
 
 print(my_sum(2, 5)) # 7
 print(my_sum(5, 7)) # 12
+
 
 # Función con clave y valor
 def my_skill (first_skill, second_skill):
@@ -79,12 +85,14 @@ print(suma) # 7
 suma= my_sum(second_number=5, first_number=2) # almacenamos el resultado. Cambiamos el orden de los parámetros
 print(suma) # 7
 
+
 # Función que devuelve un valor
 ## Cadena de texto
 def name(my_name):
      return my_name
 
 print(name('breativo')) # breativo
+
 
 ## Número entero
 def suma(first_number, second_number):
@@ -94,6 +102,7 @@ def suma(first_number, second_number):
 print(suma(5,2)) # 7
 print(suma(7,5)) # 12
 
+
 ## Booleano
 def positivo (my_number):
     if my_number % 2 == 0:
@@ -102,6 +111,7 @@ def positivo (my_number):
     return False
 print(positivo(10)) # true
 print(positivo(7))  # false
+
 
 ## Lista
 def list_numbers(n):
@@ -123,6 +133,7 @@ print(skill)                  # Python
 print(my_skill())             # Python
 print(my_skill('JavaScript')) # JavaScript
 
+
 # Número de argumentos dentro de una función
 def my_sum (*numbers):
     total=0
@@ -135,6 +146,7 @@ print(suma) # 20
 
 suma = my_sum (1, 3)
 print (suma) # 4
+
 
 # Función como parámetro de otra función
 def externa():
@@ -164,6 +176,7 @@ print(f(2)) # true
 print(f(3)) # true
 print(f(4)) # false
 
+
 # Función de orden mayor
 def cuadrado(n):
     return n * n
@@ -181,11 +194,13 @@ print(aplicar(3, cuadrado)) # 9
 print(aplicar(3, cubo))     # 27
 print(aplicar(3, mas_uno))  # 4
 
+
 # Función anónima
 anonymous_function=lambda x: x * 2
 print(anonymous_function(2))  # 4
 print(anonymous_function(5))  # 10
 print(anonymous_function(10)) # 20
+
 
 # docstring
 def leer_entero(first_number, second_number):
