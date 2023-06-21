@@ -112,6 +112,8 @@ Es posible enviar esas funciones como parámetros de otras funciones. A esas fun
 <image src="./img/funcion_ordenmayor.png" alt="Descripción de la imagen">
 </br>
 
+Las veremos más a fondo en la __lección 17 Funciones_ordenmayor_Python__
+
 <h2 style="color:#15A7E1">Función anónima.</h2>
 Las funciones normalmente tienen un nombre. Mediante este nombre podemos invocar su ejecución tantas veces como sea necesario. Pero en ocasiones queremos utilizar una función una sola vez. Para ello Python proporciona las funciones anónimas.
 
