@@ -31,20 +31,20 @@ print(my_string) # breativo
 print(my_int)    # 1
 print(my_float)  # 1.11
 print(my_boolean)# Treu
-print(my_list) # [1, 2, 3, 4]
-print(my_dict) # {'name': 'breativo', 'age': 1}
-print(my_tuple)# (1, 2, 3)
-print(my_set)  # ([1, 2], [3, 4])
+print(my_list)   # [1, 2, 3, 4]
+print(my_dict)   # {'name': 'breativo', 'age': 1}
+print(my_tuple)  # (1, 2, 3)
+print(my_set)    # ([1, 2], [3, 4])
 
 # Declaración de múltiples variables en una línea
 My_name, My_age, My_location='','',''
 
-#  Asignación de multiples variables en una linea
+#  Asignación de múltiples variables en una línea
 My_name, My_age, My_location='breativo',0,'Talavera'
 
 # Imprimir por consola las múltiples variables
-print(My_name, My_age, My_location)#breativo 0 Talavera
-print(My_name) #breativo
+print(My_name, My_age, My_location) # breativo 0 Talavera
+print(My_name) # breativo
 print(My_age) #0
 print(My_location) #Talavera
 
@@ -67,11 +67,10 @@ print(len(My_string)) # 71
 
 # Reasignación de variable
 My_variable=10
-print('Mi número favorito es', My_variable) # Mi numero favorito es 10
+print('Mi número favorito es', My_variable) # Mi número favorito es 10
 
 My_variable=2
-print('Mi número favorito es', My_variable) # Mi numero favorito es 2
-
+print('Mi número favorito es', My_variable) # Mi número favorito es 2
 
 # Cambio de tipo de variable
 My_variable='String'
@@ -116,10 +115,11 @@ print(type(My_list)) # list
 
 # Concatenar variables
 My_name='breativo'
-print('Curso de Python realizado por', My_name) # Curso de Python realizado por breativo
+print('Curso de Python realizado por '+ My_name) # Curso de Python realizado por breativo
 
 My_surname= 'developer'
 print('Este curso está realizado por', My_name +' '+ My_surname) # Este curso está realizado por breativo developer
+
 
 
 

@@ -1,5 +1,0 @@
-'''
-
-Clases Python
-
-'''
