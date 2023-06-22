@@ -160,13 +160,13 @@ La reasignación de una variable se produce cuando a una misma variable se le as
 my_variable=10
 print('Mi número favorito es', my_variable) 
 
-My_variable=2
+my_variable=2
 print('Mi número favorito es', my_variable) 
 ````
 ````py
 # Salida
-Mi número favorito es 10
-Mi número favorito es 2
+'Mi número favorito es 10'
+'Mi número favorito es 2'
 ````
 <h2 style="color:#15A7E1">Concatenación de las variables.</h2>
 En Python existen varias formas de concatenar dos o más objetos de tipo string. La más sencilla es usar el operador +. Concatenar dos o más strings con el operador + da como resultado un nuevo string.
@@ -184,7 +184,9 @@ print('Curso de Python realizado por '+ my_name)
 ````
 ````py
 # Salida
-Curso de Python realizado por breativo
+'Curso de Python realizado por breativo'
+
+'Curso de Python realizado por breativo'
 ````
 
 <h2 style="color:#15A7E1">Conversión de tipos de datos.</h2>
