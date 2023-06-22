@@ -37,10 +37,10 @@ print(my_tuple)  # (1, 2, 3)
 print(my_set)    # ([1, 2], [3, 4])
 
 # Declaración de múltiples variables en una línea
-my_name, my_age, my_location='','',''
+my_name, my_age='',''
 
 #  Asignación de múltiples variables en una línea
-my_name, my_age, my_location='breativo',0
+my_name, my_age='breativo',0
 
 # Imprimir por consola las múltiples variables
 print(my_name, my_age) # breativo 0 
