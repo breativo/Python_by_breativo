@@ -17,9 +17,6 @@ En la parte izquierda hay que situar un identificador válido y a la derecha el 
 
 Reglas de nombres de variables de Python:
 
-<br>
-<br>
-
 - Un nombre de variable debe comenzar con una letra o el carácter de subrayado.
 - Un nombre de variable no puede comenzar con un número.
 - Un nombre de variable solo puede contener caracteres alfanuméricos y guiones bajos (Az, 0-9 y _).
