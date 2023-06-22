@@ -197,6 +197,7 @@ Curso de Python realizado por breativo
 <h2 style="color:#15A7E1">Conversión de tipos de datos.</h2>
 Para convertir un tipo de dato a otro tipo de dato, nos ayudamos de las funciones int(), float(), str(), list, set, etc. Cuando realizamos operaciones aritméticas, los números de cadena deben convertirse a números enteros int o decimales float, de lo contrario, nos devolverá  un error.
 
+
 <br>
 
 ````py
