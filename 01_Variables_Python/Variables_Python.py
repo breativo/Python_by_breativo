@@ -10,11 +10,11 @@ my_name=''
 
 # Asignación de variable
 my_name='breativo'
-my_name='developer'
+my_name='Python'
 
 # Imprimir por consola la variable
 print(my_name) # breativo
-print(my_name) # developer
+print(my_name) # Python
 
 # Tipos de variables sencillas
 my_string='breativo' # Cadena de texto
@@ -22,7 +22,7 @@ my_int=1             # Número entero
 my_float= 1.11       # Número decimal      
 my_boolean=True      # boolean
 my_list=[1,2,3,4]    # list
-my_dict={'name':'brativo', 'age':1} # dict
+my_dict={'name':'breativo', 'age':1} # dict
 my_tuple=(1,2,3)     # tuple
 my_set=([1,2], [3,4])# set   
 
@@ -40,13 +40,12 @@ print(my_set)    # ([1, 2], [3, 4])
 my_name, my_age, my_location='','',''
 
 #  Asignación de múltiples variables en una línea
-my_name, my_age, my_location='breativo',0,'Talavera'
+my_name, my_age, my_location='breativo',0
 
 # Imprimir por consola las múltiples variables
-print(my_name, my_age, my_location) # breativo 0 Talavera
+print(my_name, my_age) # breativo 0 
 print(my_name) # breativo
 print(my_age) #0
-print(my_location) #Talavera
 
 # Entrada por teclado (Imput)
 my_name=input('What is  your name: ')

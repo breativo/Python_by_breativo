@@ -117,7 +117,7 @@ my_int=1              # Número entero
 my_float= 1.11        # Número decimal      
 my_boolean=True       # boolean
 my_list=[1,2,3,4]     # list
-my_dict={'name':'brativo', 'age':1} # dict
+my_dict={'name':'breativo', 'age':1} # dict
 my_tuple=(1,2,3)      # tuple
 my_set=([1,2], [3,4]) # set   
 
@@ -133,13 +133,13 @@ print(my_set)
 ````
 ````py
 # Salida
-breativo ,1 ,1.11 ,True ,[1, 2, 3, 4] ,{'name': 'brativo', 'age': 1} ,(1, 2, 3) ,([1, 2], [3, 4])
+breativo ,1 ,1.11 ,True ,[1, 2, 3, 4] ,{'name': 'breativo', 'age': 1} ,(1, 2, 3) ,([1, 2], [3, 4])
 breativo
 1
 1.11
 True
 [1, 2, 3, 4]
-{'name': 'brativo', 'age': 1}
+{'name': 'breativo', 'age': 1}
 (1, 2, 3)
 ([1, 2], [3, 4])
 ````
