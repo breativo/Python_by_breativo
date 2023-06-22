@@ -75,7 +75,7 @@ print(my_name)
 ````
 ````py
 # Salida
-Valor introducido por teclado.
+'Valor introducido por teclado'
 ````
 
 <h2 style="color:#15A7E1">Tipos de datos.</h2>
