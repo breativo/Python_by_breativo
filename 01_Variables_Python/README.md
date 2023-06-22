@@ -7,13 +7,18 @@
 <h2 style="color:#15A7E1">Definición.</h2>
 Las variables almacenan datos en la memoria de una computadora. Una variable mnemotécnica es un nombre de variable que se recuerda y asocia fácilmente. Una variable puede tener un nombre corto (como x, y, z), pero se recomienda enfáticamente un nombre más descriptivo (nombre, apellido, edad, país).
 
-</br>
+<br>
+<br>
+
 En la parte izquierda hay que situar un identificador válido y a la derecha el dato que deseamos asignar al identificador.
 
-</br>
+<br>
+<br>
+
 Reglas de nombres de variables de Python:
 
-</br>
+<br>
+<br>
 
 - Un nombre de variable debe comenzar con una letra o el carácter de subrayado.
 - Un nombre de variable no puede comenzar con un número.
@@ -46,6 +51,8 @@ breativo
 
 <h2 style="color:#15A7E1">Declarar múltiples variables en una línea.</h2>
 También disponemos de la opción de declarar múltiples variables en una misma línea. Solo debemos seguir el orden de las variables a la hora de declarar las variables. De esta forma cada variable tendrá declarado su dato correctamente.
+
+<br>
 <br>
 
 ````py
@@ -66,6 +73,8 @@ breativo
 
 <h2 style="color:#15A7E1">Entrada por teclado.</h2>
 Con la función incorporada input() asignamos los datos introducidos por los usuarios a la variable.
+
+<br>
 <br>
 
 ````py
@@ -100,6 +109,8 @@ En los conjuntos de Python, los valores duplicados se eliminan y solo conservamo
 **Diccionario** : Los diccionarios son colecciones desordenadas de valores que utilizan para poder almacenar otros tipos de datos de forma de mapa.
 
 A diferente de otros tipos de datos, los diccionarios contienen un par de valores, mientras que otros solo pueden almacenar un valor determinado.
+
+<br>
 <br>
 
 ````py
@@ -138,6 +149,8 @@ True
 
 <h2 style="color:#15A7E1">Comprobación de tipos de datos.</h2>
 Hay varios tipos de datos dentro de Python. Para identificarlos usamos la función type(). 
+
+<br>
 <br>
 
 ````py
@@ -153,6 +166,8 @@ str
 ````
 <h2 style="color:#15A7E1">Reasignación de la variable.</h2>
 La reasignación de una variable se produce cuando a una misma variable se le asigna un nuevo valor. El valor origen se pierde y obtine el nuevo valor.
+
+<br>
 <br>
 
 ````py
@@ -170,9 +185,13 @@ print('Mi número favorito es', my_variable)
 ````
 <h2 style="color:#15A7E1">Concatenación de las variables.</h2>
 En Python existen varias formas de concatenar dos o más objetos de tipo string. La más sencilla es usar el operador +. Concatenar dos o más strings con el operador + da como resultado un nuevo string.
+
+<br>
 <br>
 
 Para concatenar varios strings en Python necesitamos que todos los elementos sean de este tipo. Si tratamos de concatenar, por ejemplo, un string con un int, el intérprete lanzará un error. Por lo que debemos convertirlo a una cedena de texto.
+
+<br>
 <br>
 
 ````py
@@ -191,6 +210,8 @@ print('Curso de Python realizado por '+ my_name)
 
 <h2 style="color:#15A7E1">Conversión de tipos de datos.</h2>
 Para convertir un tipo de dato a otro tipo de dato, nos ayudamos de las funciones int(), float(), str(), list, set, etc. Cuando realizamos operaciones aritméticas, los números de cadena deben convertirse a números enteros int o decimales float, de lo contrario, nos devolverá  un error.
+
+<br>
 <br>
 
 ````py
@@ -226,12 +247,13 @@ breativo
 ['b', 'r', 'e', 'a', 't', 'i', 'v', 'o']
 
 ````
-
-</br>
+<br>
+<br>
 
 🎉 Enhorabuena has superado la lección 🎉
 
-</br>
+<br>
+<br>
 
 [<< 00 Instalación](../00_Instalación_Python) | [02 Funciones integradas >>](../02_Funciones_Integradas_Python)
 
