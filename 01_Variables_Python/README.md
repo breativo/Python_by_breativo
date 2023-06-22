@@ -38,7 +38,7 @@ my_name='breativo'
 print(my_name)
 print(len(my_name))
 ````
-````sh
+````py
 # Salida
 breativo
 8
@@ -57,7 +57,7 @@ print(my_name)
 print(my_age)
 print(my_location)
 ````
-````sh
+````py
 # Salida
 breativo, 0, Talavera
 breativo
@@ -75,7 +75,7 @@ Con la función incorporada input() asignamos los datos introducidos por los usu
 my_name=input('What is your name: ')
 print(my_name)
 ````
-````sh
+````py
 # Salida
 Valor introducido por teclado.
 ````
@@ -126,7 +126,7 @@ print(my_dict)
 print(my_tuple)
 print(my_set)  
 ````
-````sh
+````py
 # Salida
 breativo ,1 ,1.11 ,True ,[1, 2, 3, 4] ,{'name': 'brativo', 'age': 1} ,(1, 2, 3) ,([1, 2], [3, 4])
 breativo
@@ -150,7 +150,7 @@ my_name='breativo
 print(my_name)
 print(type(my_name))
 ````
-````sh
+````py
 # Salida
 breativo
 str
@@ -168,7 +168,7 @@ print('Mi número favorito es', my_variable)
 My_variable=2
 print('Mi número favorito es', my_variable) 
 ````
-````sh
+````py
 # Salida
 Mi número favorito es 10
 Mi número favorito es 2
@@ -189,7 +189,7 @@ print('Curso de Python realizado por', my_name)
 
 print('Curso de Python realizado por '+ my_name)
 ````
-````sh
+````py
 # Salida
 Curso de Python realizado por breativo
 ````
@@ -202,7 +202,7 @@ Para convertir un tipo de dato a otro tipo de dato, nos ayudamos de las funcione
 ````py
 # Entrada
 
-Cambiar un número entero a texto
+## Cambiar un número entero a texto.
 
 my_number=10
 print(my_number) 
@@ -210,7 +210,7 @@ print(type(my_number))
 print(type(str(my_number))) 
 print(my_number) 
 
-Cambiar una cadena texto a lista
+## Cambiar una cadena texto a lista.
 
 my_name='breativo'
 print(my_name) 
@@ -219,7 +219,7 @@ print(type(list(my_name)))
 print(my_name)
 
 ````
-````sh
+````py
 # Salida
 10
 <class 'int'>
