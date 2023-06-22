@@ -5,15 +5,15 @@ Variables Python
 '''
 
 # Declaración de variable
-My_name=''
+my_name=''
 my_name=''
 
 # Asignación de variable
-My_name='breativo'
+my_name='breativo'
 my_name='developer'
 
 # Imprimir por consola la variable
-print(My_name) # breativo
+print(my_name) # breativo
 print(my_name) # developer
 
 # Tipos de variables sencillas
@@ -37,88 +37,88 @@ print(my_tuple)  # (1, 2, 3)
 print(my_set)    # ([1, 2], [3, 4])
 
 # Declaración de múltiples variables en una línea
-My_name, My_age, My_location='','',''
+my_name, my_age, my_location='','',''
 
 #  Asignación de múltiples variables en una línea
-My_name, My_age, My_location='breativo',0,'Talavera'
+my_name, my_age, my_location='breativo',0,'Talavera'
 
 # Imprimir por consola las múltiples variables
-print(My_name, My_age, My_location) # breativo 0 Talavera
-print(My_name) # breativo
-print(My_age) #0
-print(My_location) #Talavera
+print(my_name, my_age, my_location) # breativo 0 Talavera
+print(my_name) # breativo
+print(my_age) #0
+print(my_location) #Talavera
 
 # Entrada por teclado (Imput)
-My_name=input('What is  your name: ')
-My_age=input('How old are you:')
-print(My_name) # El resultado que introducimos por teclado
-print(My_age)  # El resultado que introducimos por teclado
+my_name=input('What is  your name: ')
+my_age=input('How old are you:')
+print(my_name) # El resultado que introducimos por teclado
+print(my_age)  # El resultado que introducimos por teclado
 
 # Comprobar el tipo de variable (Función Type)
-My_name='breativo'
-print(type(My_name)) # str
+my_name='breativo'
+print(type(my_name)) # str
 
 # Comprobar el tamaño de la variable (Función len)
-My_name= 'breativo'
-print(len(My_name)) # 8
+my_name= 'breativo'
+print(len(my_name)) # 8
 
-My_string='Este curso es perfecto para comprender y comenzar a trabajar con Python'
-print(len(My_string)) # 71
+my_string='Este curso es perfecto para comprender y comenzar a trabajar con Python'
+print(len(my_string)) # 71
 
 # Reasignación de variable
-My_variable=10
-print('Mi número favorito es', My_variable) # Mi número favorito es 10
+my_variable=10
+print('Mi número favorito es', my_variable) # Mi número favorito es 10
 
-My_variable=2
-print('Mi número favorito es', My_variable) # Mi número favorito es 2
+my_variable=2
+print('Mi número favorito es', my_variable) # Mi número favorito es 2
 
 # Cambio de tipo de variable
-My_variable='String'
-print(My_variable) # String
+my_variable='String'
+print(my_variable) # String
 
-My_variable=1
-print(My_variable) # 1
+my_variable=1
+print(my_variable) # 1
 
-My_variable=True
-print(My_variable) # True
+my_variable=True
+print(my_variable) # True
 
 # Convertir un tipo de dato a otro diferente
 ## Cambiar un número entero a decimal
-My_number=10
-print(type(My_number)) # int
-print(type(float(My_number))) # float
-print(My_variable) # 10.0
+my_number=10
+print(type(my_number)) # int
+print(type(float(my_number))) # float
+print(my_variable) # 10.0
 
-My_number_float=float(My_number)
-print(My_number_float) # 10.0
-print(type(My_number_float)) # float
+my_number_float=float(my_number)
+print(my_number_float) # 10.0
+print(type(my_number_float)) # float
 
 ## Cambiar un número entero a texto
-My_number=10
-print(My_number) # 10
-print(type(My_number)) # int
-print(type(str(My_number))) # str
+my_number=10
+print(my_number) # 10
+print(type(my_number)) # int
+print(type(str(my_number))) # str
 
-My_number_string=str(My_number)
-print(My_number_string) # 10
-print(type(My_number_string)) # str
+my_number_string=str(my_number)
+print(my_number_string) # 10
+print(type(my_number_string)) # str
 
 ## Cambiar una cadena texto a lista
-My_name='breativo'
-print(My_name) # breativo
-print(type(My_name)) # str
-print(type(list(My_name))) #list
+my_name='breativo'
+print(my_name) # breativo
+print(type(my_name)) # str
+print(type(list(my_name))) #list
 
-My_list=list(My_name)
-print(My_list) # ['b', 'r', 'e', 'a', 't', 'i', 'v', 'o']
-print(type(My_list)) # list
+my_list=list(my_name)
+print(my_list) # ['b', 'r', 'e', 'a', 't', 'i', 'v', 'o']
+print(type(my_list)) # list
 
 # Concatenar variables
-My_name='breativo'
-print('Curso de Python realizado por '+ My_name) # Curso de Python realizado por breativo
+my_name='breativo'
+print('Curso de Python realizado por '+ my_name) # Curso de Python realizado por breativo
 
-My_surname= 'developer'
-print('Este curso está realizado por', My_name +' '+ My_surname) # Este curso está realizado por breativo developer
+my_surname= 'developer'
+print('Este curso está realizado por', my_name +' '+ my_surname) # Este curso está realizado por breativo developer
 
 
 
