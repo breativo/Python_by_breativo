@@ -40,11 +40,29 @@ my_name='breativo'
 print(my_name)
 print(len(my_name))
 ````
-````py
+````
 # Salida
 breativo
 8
 ````
+
+<h2 style="color:#15A7E1">Asignación por el mismo valor.</h2>
+En Python podemos asignar a diferentes variables el mismo valor.
+<br>
+<br>
+
+````py
+# Entrada
+my_name = my_surname = 'breativo
+print(my_name)
+print(my_surname)
+````
+````
+# Salida
+breativo
+breativo
+````
+
 
 <h2 style="color:#15A7E1">Declarar múltiples variables en una línea.</h2>
 También disponemos de la opción de declarar múltiples variables en una misma línea. Solo debemos seguir el orden de las variables a la hora de declarar las variables. De esta forma cada variable tendrá declarado su dato correctamente.
@@ -60,7 +78,7 @@ print(my_name, my_age)
 print(my_name)
 print(my_age)
 ````
-````py
+````
 # Salida
 breativo, 0
 
@@ -79,7 +97,7 @@ Con la función incorporada input() asignamos los datos introducidos por los usu
 my_name=input('What is your name: ')
 print(my_name)
 ````
-````py
+````
 # Salida
 'Valor introducido por teclado'
 ````
@@ -131,7 +149,7 @@ print(my_dict)
 print(my_tuple)
 print(my_set)  
 ````
-````py
+````
 # Salida
 breativo ,1 ,1.11 ,True ,[1, 2, 3, 4] ,{'name': 'breativo', 'age': 1} ,(1, 2, 3) ,([1, 2], [3, 4])
 breativo
@@ -156,7 +174,7 @@ my_name='breativo
 print(my_name)
 print(type(my_name))
 ````
-````py
+````
 # Salida
 breativo
 str
@@ -175,7 +193,7 @@ print('Mi número favorito es', my_variable)
 my_variable=2
 print('Mi número favorito es', my_variable) 
 ````
-````py
+````
 # Salida
 'Mi número favorito es 10'
 'Mi número favorito es 2'
@@ -198,7 +216,7 @@ print('Curso de Python realizado por', my_name)
 
 print('Curso de Python realizado por '+ my_name)
 ````
-````py
+````
 # Salida
 'Curso de Python realizado por breativo'
 
@@ -231,7 +249,7 @@ print(type(list(my_name)))
 print(my_name)
 
 ````
-````py
+````
 # Salida
 10
 <class 'int'>

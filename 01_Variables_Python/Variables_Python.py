@@ -6,15 +6,20 @@ Variables Python
 
 # Declaración de variable
 my_name=''
-my_name=''
+my_name=""
 
 # Asignación de variable
 my_name='breativo'
-my_name='Python'
+my_name="Python"
 
 # Imprimir por consola la variable
 print(my_name) # breativo
 print(my_name) # Python
+
+# Asignación por el mismo valor
+my_name= my_surname= 'breativo'
+print(my_name)    # breativo
+print(my_surname) # breativo
 
 # Tipos de variables sencillas
 my_string='breativo' # Cadena de texto
@@ -116,8 +121,8 @@ print(type(my_list)) # list
 my_name='breativo'
 print('Curso de Python realizado por '+ my_name) # Curso de Python realizado por breativo
 
-my_surname= 'developer'
-print('Este curso está realizado por', my_name +' '+ my_surname) # Este curso está realizado por breativo developer
+my_skill= 'Python'
+print('Este curso ' , my_skill , ' está realizado por ', my_name ) # Este curso Python está realizado por breativo
 
 
 

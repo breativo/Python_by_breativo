@@ -5,6 +5,10 @@
 <h1> </h1>
 
 <h2 style="color:#15A7E1"></h2>
+Para realizar la instalación de Python necesitamos obtener el ejecutable de Python. Para obtener este fichero nos dirigimos a la web oficial de Python.
+<br>
+
+[web oficial de Python](https://www.python.org/downloads/)
 
 
 <br>
