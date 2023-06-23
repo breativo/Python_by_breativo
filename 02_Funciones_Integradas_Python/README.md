@@ -82,7 +82,7 @@ El método read() leerá todo el contenido de un archivo y lo devolverá como un
 ````py
 # Entrada
 my_file=open('breativo_read.txt','r',encoding="utf-8") 
-print(my_file.read5)) 
+print(my_file.read5)
 my_file.close() 
 ````
 ````
@@ -292,7 +292,7 @@ Esta función toma un objeto como parámetro de entrada y retorna un número ent
 ````py
 # Entrada
 my_name='breativo'
-my_string=My_name
+my_string=my_name
 print(id(my_name), id(my_string)) 
 ````
 ````

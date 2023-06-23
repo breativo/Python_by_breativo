@@ -21,9 +21,9 @@ print ('Hola mundo', 'breativo', sep='\n', end='\n**** fin **** \n')
 # ''**** fin ****
 
 # Función input()
-My_name=input('What is your name? ')
-print(My_name) # Entrada por teclado (breativo)
-print(type(My_name)) # str
+my_name=input('What is your name? ')
+print(my_name) # Entrada por teclado (breativo)
+print(type(my_name)) # str
 
 # Función open()
 ## read()
