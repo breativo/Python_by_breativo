@@ -594,11 +594,11 @@ La función reversed(secuencia) retorna un iterador revertido de los valores de 
 
 ````py
 # Entrada
-My_list=list(reversed([1, 2, 3, 4]))
-print(My_list)    
+my_list=list(reversed([1, 2, 3, 4]))
+print(my_list)    
 
-My_tuple=tuple(reversed((1, 2, 3, 4)))
-print(My_tuple) 
+my_tuple=tuple(reversed((1, 2, 3, 4)))
+print(my_tuple) 
 ````
 ````
 # Salida

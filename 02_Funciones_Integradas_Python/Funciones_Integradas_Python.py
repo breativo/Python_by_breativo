@@ -185,11 +185,11 @@ print(sorted([3, 2, 5, 1, 4])) # (<) [1, 2, 3, 4, 5]
 print(sorted([3, 2, 5, 1, 4], reverse=True)) # (>) [5, 4, 3, 2, 1]
 
 # Función reversed()
-My_list=list(reversed([1, 2, 3, 4]))
-print(My_list)    # [4, 3, 2, 1]
+my_list=list(reversed([1, 2, 3, 4]))
+print(my_list)    # [4, 3, 2, 1]
 
-My_tuple=tuple(reversed((1, 2, 3, 4)))
-print(My_tuple)   # (4, 3, 2, 1)
+my_tuple=tuple(reversed((1, 2, 3, 4)))
+print(my_tuple)   # (4, 3, 2, 1)
 
 
 
