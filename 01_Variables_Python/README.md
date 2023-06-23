@@ -40,7 +40,7 @@ my_name='breativo'
 print(my_name)
 print(len(my_name))
 ````
-````
+````sh
 # Salida
 breativo
 8
@@ -48,6 +48,7 @@ breativo
 
 <h2 style="color:#15A7E1">Asignación por el mismo valor.</h2>
 En Python podemos asignar a diferentes variables el mismo valor.
+
 <br>
 <br>
 
@@ -57,7 +58,7 @@ my_name = my_surname = 'breativo
 print(my_name)
 print(my_surname)
 ````
-````
+````sh
 # Salida
 breativo
 breativo
@@ -78,7 +79,7 @@ print(my_name, my_age)
 print(my_name)
 print(my_age)
 ````
-````
+````sh
 # Salida
 breativo, 0
 
@@ -97,7 +98,7 @@ Con la función incorporada input() asignamos los datos introducidos por los usu
 my_name=input('What is your name: ')
 print(my_name)
 ````
-````
+````sh
 # Salida
 'Valor introducido por teclado'
 ````
@@ -149,7 +150,7 @@ print(my_dict)
 print(my_tuple)
 print(my_set)  
 ````
-````
+````sh
 # Salida
 breativo ,1 ,1.11 ,True ,[1, 2, 3, 4] ,{'name': 'breativo', 'age': 1} ,(1, 2, 3) ,([1, 2], [3, 4])
 breativo
@@ -174,7 +175,7 @@ my_name='breativo
 print(my_name)
 print(type(my_name))
 ````
-````
+````sh
 # Salida
 breativo
 str
@@ -193,7 +194,7 @@ print('Mi número favorito es', my_variable)
 my_variable=2
 print('Mi número favorito es', my_variable) 
 ````
-````
+````sh
 # Salida
 'Mi número favorito es 10'
 'Mi número favorito es 2'
@@ -216,7 +217,7 @@ print('Curso de Python realizado por', my_name)
 
 print('Curso de Python realizado por '+ my_name)
 ````
-````
+````sh
 # Salida
 'Curso de Python realizado por breativo'
 
@@ -249,7 +250,7 @@ print(type(list(my_name)))
 print(my_name)
 
 ````
-````
+````sh
 # Salida
 10
 <class 'int'>

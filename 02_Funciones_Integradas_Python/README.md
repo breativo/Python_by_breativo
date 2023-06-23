@@ -36,7 +36,7 @@ print('Hola mundo','breativo',sep='\n')
 ## Parámetro end.
 print('Hola mundo','breativo', end='** fin **')
 ````
-````
+````sh
 # Salida
 Hola mundo
 
@@ -57,7 +57,7 @@ La función integrada input() toma datos de entrada por el teclado hasta que pul
 my_name=input('What is your name? ')
 print(my_name)
 ````
-````
+````sh
 # Salida
 Parámetro introducido por teclado por el usuario
 ````
@@ -85,7 +85,7 @@ my_file=open('breativo_read.txt','r',encoding="utf-8")
 print(my_file.read5)
 my_file.close() 
 ````
-````
+````sh
 # Salida
 Python es un lenguaje de programación potente y fácil de aprender.
 Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos.
@@ -102,7 +102,7 @@ my_file=open('breativo_read.txt','r',encoding="utf-8")
 print(my_file.read(6)) 
 my_file.close() 
 ````
-````
+````sh
 # Salida
 Python
 ````
@@ -119,7 +119,7 @@ my_file=open('breativo_read.txt','r', encoding="utf-8")
 print(my_file.readline()) 
 my_file.close() 
 ````
-````
+````sh
 # Salida
 Python es un lenguaje de programación potente y fácil de aprender.
 ````
@@ -136,7 +136,7 @@ my_file=open('breativo_read.txt','r',encoding="utf-8")
 print(my_file.readlines()) 
 my_file.close()     
 ````
-````
+````sh
 # Salida
 Python es un lenguaje de programación potente y fácil de aprender.
 Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos.
@@ -157,7 +157,7 @@ for lineas in my_file:
 my_file.close()
 
 ````
-````
+````sh
 # Salida
 Python es un lenguaje de programación potente y fácil de aprender.
 Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos.
@@ -177,7 +177,7 @@ my_file=open('breativo_write.txt','w')
 print(my_file.write('Nueva línea para el fichero breativo_write.txt')) 
 my_file.close()       
 ````
-````
+````sh
 # Salida
 Nueva línea para el fichero breativo_write.txt
 ````
@@ -202,7 +202,7 @@ print(my_number_format)
 my_number_format=format(3.33333,'.4f')
 print(my_number_format) 
 ````
-````
+````sh
 # Salida
 3
 3.33333
@@ -222,7 +222,7 @@ La función help() muestra la ayuda integrada de cualquier componente de Python,
 # Entrada
 help(print)
 ````
-````
+````sh
 # Salida
 Help on built-in function print in module builtins:
 
@@ -253,7 +253,7 @@ print(my_string)
 print(dir(my_string)) 
 
 ````
-````
+````sh
 # Salida
 breativo
 ['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
@@ -276,7 +276,7 @@ print(type(my_number)) # int
 my_tuple=(1,2,3)
 print(type(my_tuple)) # tuple
 ````
-````
+````sh
 # Salida
 <class 'str'>
 <class 'int'>
@@ -295,7 +295,7 @@ my_name='breativo'
 my_string=my_name
 print(id(my_name), id(my_string)) 
 ````
-````
+````sh
 # Salida
 2208001946224 2208001946224
 ````
@@ -312,7 +312,7 @@ my_name='breativo'
 my_string= 'breativo'
 print(hash(my_name), hash(my_string))
 ````
-````
+````sh
 # Salida
 8396732612742469870 8396732612742469870
 ````
@@ -336,7 +336,7 @@ print(round(my_number))
 my_number=1.23456789
 print(round(my_number,2)) 
 ````
-````
+````sh
 # Salida
 2
 2
@@ -356,7 +356,7 @@ print(pow(2,3))
 print(pow(2,-1)) 
 print(pow(2,3,2)) 
 ````
-````
+````sh
 # Salida
 4
 8
@@ -383,7 +383,7 @@ print(my_list)
 my_list=list(range(20))
 print(my_list)
 ````
-````
+````sh
 # Salida
 []
 [1, 2, 3]
@@ -404,7 +404,7 @@ print(my_dict)
 my_dict=dict(name='breativo', age=1 )
 print(my_dict)
 ````
-````
+````sh
 # Salida
 {}
 {'name': 'breativo', 'age': 1}
@@ -424,7 +424,7 @@ print(my_tuple) # ()
 my_tuple=tuple("breativo by Python")
 print(my_tuple) 
 ````
-````
+````sh
 # Salida
 ()
 ('b', 'r', 'e', 'a', 't', 'i', 'v', 'o', ' ', 'b', 'y', ' ', 'P', 'y', 't', 'h', 'o', 'n')
@@ -444,7 +444,7 @@ print(my_set)
 my_set=set('breativo by Python')
 print(my_set)
 ````
-````
+````sh
 # Salida
 set()
 {'e', 'o', 'y', 'v', ' ', 'i', 'n', 'r', 'h', 'a', 'b', 'P', 't'}
@@ -469,7 +469,7 @@ print(my_numbers)
 my_numbers=list(range(0,20,2))
 print(my_numbers)
 ````
-````
+````sh
 # Salida
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
@@ -488,7 +488,7 @@ my_skills=['Python', 'JavaScript', 'Java', 'Kotlin']
 print(my_skills) 
 print(list(enumerate(my_skills))) 
 ````
-````
+````sh
 # Salida
 ['Python', 'JavaScript', 'Java', 'Kotlin']
 [(0, 'Python'), (1, 'JavaScript'), (2, 'Java'), (3, 'Kotlin')]
@@ -507,7 +507,7 @@ La función len(objeto) retorna el número de elementos que contiene un objeto. 
 my_name='breativo'
 print(len(my_name))
 ````
-````
+````sh
 # Salida
 8
 ````
@@ -523,7 +523,7 @@ La función sum(iterable) retorna el total de sumar los elementos de la secuenci
 print(sum([1, 2, 3]))    
 print(sum([1, 2, 3], 4))
 ````
-````
+````sh
 # Salida
 6
 10
@@ -541,7 +541,7 @@ print(max([1,2,3,4,5,6,7,8,9]))
 print(max('a','b','c','d'))     
 print(max('breativo')) 
 ````
-````
+````sh
 # Salida
 9
 d
@@ -560,7 +560,7 @@ print(min([1,2,3,4,5,6,7,8,9]))
 print(min('a','b','c','d'))     
 print(min('breativo'))  
 ````
-````
+````sh
 # Salida
 1
 a
@@ -580,7 +580,7 @@ La función sorted(iterable) retorna una lista con los elementos de iterable ord
 print(sorted([3, 2, 5, 1, 4])) 
 print(sorted([3, 2, 5, 1, 4], reverse=True))
 ````
-````
+````sh
 # Salida
 [1, 2, 3, 4, 5]
 [5, 4, 3, 2, 1]
@@ -600,7 +600,7 @@ print(my_list)
 my_tuple=tuple(reversed((1, 2, 3, 4)))
 print(my_tuple) 
 ````
-````
+````sh
 # Salida
 [4, 3, 2, 1]
 (4, 3, 2, 1)
