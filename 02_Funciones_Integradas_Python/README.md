@@ -401,13 +401,13 @@ Es el constructor de la clase diccionario. Usado sin argumentos retorna un dicci
 my_dict=dict()
 print(my_dict)
 
-my_dict=dict(name='breativo', age=1, My_specialty='Python' )
+my_dict=dict(name='breativo', age=1 )
 print(my_dict)
 ````
 ````
 # Salida
 {}
-{'name': 'breativo', 'age': 1, 'My_specialty': 'Python'}
+{'name': 'breativo', 'age': 1}
 ````
 
 <h3 style="color:#15A7E1">tuple().</h3>

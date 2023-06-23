@@ -129,8 +129,8 @@ print(my_list)# 1->19
 my_dict=dict()
 print(my_dict) # {}
 
-my_dict=dict(name='breativo', age=1, My_specialty='Python' )
-print(my_dict) # {'name': 'breativo', 'age': 1, 'My_specialty': 'Python'}
+my_dict=dict(name='breativo', age=1 )
+print(my_dict) # {'name': 'breativo', 'age': 1}
 
 # Función tuple()
 my_tuple=tuple()
