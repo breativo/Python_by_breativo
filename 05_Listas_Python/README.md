@@ -36,12 +36,12 @@ En Python podemos crear listas de dos formas:
 
 ````py
 # Entrada
-## Listas con el mismo tipo de elementos
+# Listas con el mismo tipo de elementos
 my_list=[1,2,3,4,5,6,7,8,9,0]
 print(my_list)  # 1,2,3,4,5,6,7,8,9,0
 print(len(my_list)) # 10
 
-## Lista con difernetes tipos de elementos
+# Lista con difernetes tipos de elementos
 my_list=['breativo' , True, 0, "Python" ]
 print(my_list) # ['breativo', True, 0, 'Python']
 print(len(my_list)) # 4
@@ -68,13 +68,13 @@ La indexación negativa significa comenzar desde el final, -1 se refiere al últ
 
 ````py
 # Entrada
-##  indexación positiva
+#  indexación positiva
 my_list=[1,2,3,4,5,6,7,8,9,0]
 print(my_list[0]) 
 print(my_list[2]) 
 print(my_list[9]) 
 
-## indexación negativa
+# indexación negativa
 my_list=[1,2,3,4,5,6,7,8,9,0]
 print(my_list[-1])
 print(my_list[-3])
