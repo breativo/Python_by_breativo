@@ -177,7 +177,7 @@ Elemento eliminado 0
 {1, 2, 3, 4, 5, 6, 7, 8, 9, 'breativo'}
 ````
 
-<h2 style="color:#15A7E1">Vaciar un conjunto.</h2>
+<h2 style="color:#15A7E1">Eliminar elementos de un conjunto.</h2>
 Si queremos borrar o vaciar el conjunto, usamos el método clear().
 
 <br>
