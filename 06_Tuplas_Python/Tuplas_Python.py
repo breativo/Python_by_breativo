@@ -80,31 +80,26 @@ my_tuple= ('breativo', 'Python', 1,2,3)
 print('breativo' in my_tuple) #true
 print('bre' in my_tuple)      #false
 
-
 # Unir tuplas
 my_tuple= ('breativo', 'Python', 1,2,3)
 my_second_tuple=( 4,5,6,7,8,9)
 new_tuple=my_tuple + my_second_tuple
 print(new_tuple) # ('breativo', 'Python', 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
-
 # Eliminar tupla
 my_tuple= ('breativo', 'Python', 1,2,3)
 del my_tuple
 #print(my_tuple) # error al no existir la tupla 
-
 
 # Métodos para tuplas
 ## index()
 my_tuple=('breativo', 'Python', 1, 2, 3)
 print(my_tuple.index('breativo')) # 0
 
-
 ## count()
 my_tuple=('breativo', 'Python', 1, 2, 3, 4,'breativo')
 print(my_tuple.count('breativo')) # 2
 print(my_tuple.count(2))          # 1
-
 
 ## len()
 my_tuple=('breativo', 'Python', 1, 2, 3, 4,'breativo')
