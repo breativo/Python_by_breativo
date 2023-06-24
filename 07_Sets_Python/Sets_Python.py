@@ -72,7 +72,7 @@ my_new_set=my_set.pop()
 print(my_new_set) # elemento eliminado 0
 print(my_set)     # {1, 2, 3, 4, 5, 6, 7, 8, 9, 'breativo'}
 
-# Borrar elementos de un set
+# Vaciar elementos de un set
 my_set={'breativo', 1, 2, 3, 4, 5, 6, 7, 8, 9, 0}
 print(my_set) # {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'breativo'}
 my_set.clear()
