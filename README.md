@@ -2,8 +2,10 @@
 
 Python por su sencillez, legibilidad y versatilidad, en la actualidad se ha convertido en uno de los lenguajes de programación más populares del mundo.
 Con el curso Python by breativo, aprenderás a dominarás los principios básicos de Python, sus estructuras, sus funciones, los bucles e interacciones, ficheros y control de excepciones, entre otros.
-</br>
-</br>
+
+<br>
+<br>
+
 ![https://github.com/breativo](https://github.com/breativo/Python_by_breativo/blob/master/img/Banner_Python_by_breativo.png?raw=true)
 [![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python&logoColor=white&labelColor=101010)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.88.0+-00a393?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=101010)](https://fastapi.tiangolo.com)
@@ -13,13 +15,24 @@ Con el curso Python by breativo, aprenderás a dominarás los principios básico
 # Temario 
 #### [00 Instalación Python.](https://github.com/breativo/Python_by_breativo/tree/master/00_Instalaci%C3%B3n_Python)
 #### [01 Variables Python.](https://github.com/breativo/Python_by_breativo/tree/master/01_Variables_Python)
-#### [02 Funciones integradas Python.](https://github.com/breativo/Python_by_breativo/tree/master/01_Variables_Python)
+#### [02 Funciones integradas Python.](https://github.com/breativo/Python_by_breativo/tree/master/02_Funciones_Integradas_Python)
+#### [03 Operadores Python.](https://github.com/breativo/Python_by_breativo/tree/master/02_Operadores_Python)
+#### [04 String Python.](https://github.com/breativo/Python_by_breativo/tree/master/04_String_Python)
+#### [05 Listas Python.](https://github.com/breativo/Python_by_breativo/tree/master/05_Listas_Python)
+#### [06 Tuplas Python.](https://github.com/breativo/Python_by_breativo/tree/master/06_Tuplas_Python)
+#### [07 Sets Python.](https://github.com/breativo/Python_by_breativo/tree/master/07_Sets_Python)
+
+<br>
+<br>
+
 # Enlaces de interés
 --
 # Encuéntrame
 Puedes encontrarme en las siguientes plataformas.
-</br>
-</br>
+
+<br>
+<br>
+
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
 [![YouTube](https://img.shields.io/badge/YouTube-breativo-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://www.youtube.com/channel/UC257J3j4W8gJFbuPJJxTs9w) 
