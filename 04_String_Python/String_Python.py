@@ -144,6 +144,14 @@ print('My name is {}'.format(my_name)) # My name is breativo
 my_string='breativo developer'
 print(my_string.index('ti')) # 4
 
+my_string='breativo developer'
+print(my_string.index('e')) # 2
+
+my_string='breativo developer'
+separator=my_string.index('e') 
+separator_second=my_string.index('e', separator+1)  
+print(separator_second) # 10
+
 ## rindex()
 my_name='breativo'
 my_sub_string='ti'
