@@ -278,12 +278,12 @@ print(Cuarta.__bases__)
 (<class '__main__.Segunda'>, <class '__main__.Tercera'>)
 ````
 
-</br>
-</br>
+<br>
+<br>
 
 🎉 Enhorabuena has superado la lección 🎉
 
-</br>
+<br>
 
 [<< 11 Funciones](../11_Funciones_Python) | [13 Excepciones >>](../13_Excepciones_Python)
 
