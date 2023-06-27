@@ -139,7 +139,7 @@ Después de llamar a la función.
 
 <br>
 
-[<< 15 Fechas](../15_Fechas_Python) | [17 Expresiones Regulares >>](../17_Epresiones_Regulares_Python)
+[<< 15 Fechas](../15_Fechas_Python) | [17 Expresiones Regulares >>](../17_Expresiones_Regulares_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
