@@ -152,7 +152,7 @@ Estos son solo algunos ejemplos básicos de elementos y metacaracteres que puede
 
 <br>
 
-[<< 14 Módulos](../13_Excepciones_Python) | [16 Funciones Orden Mayor >>](../15_Funciones_OrdenMayor_Python)
+[<< 16 Funciones Orden Mayor](../16_Funciones_OrdenMayor_Python) | [18 Manejo ficheros >>](../18_Expresiones_Regulares_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
