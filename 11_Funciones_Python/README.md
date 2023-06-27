@@ -277,6 +277,24 @@ print(anonymous_function(10))
 20
 ````
 
+Podemos encontrar funciones anonimas dentro de otra función.
+
+<br>
+<br>
+
+````py
+# Entrada
+def power(x):
+    return lambda n : x ** n
+cube = power(2)(3) 
+print(cube)  
+````
+````sh
+# Salida
+8
+````
+
+
 <h2 style="color:#15A7E1">docstring en una función.</h2>
 Es opcional incluir un string al inicio de la función para documentarla (su uso, los parámetros que espera recibir, etc).
 

@@ -12,12 +12,12 @@ Python tiene un total de 69 funciones integradas que podemos utilizar sin necesi
 
 Algunas de las funciones integradas de Python más utilizadas son las siguientes: print() , len() , type() , int() , float() , str() , input() , list() , dict() , min() , max() , sum() , sorted() , open() , file() , help() y dir(). En la siguiente tabla, verá una lista exhaustiva de las funciones integradas de Python tomadas de la documentación de Python.
 
-</br>
-</br>
+<br>
+<br>
 
 <image src="./img/lista_funciones.png" alt="Descripción de la imagen">
 
-</br>
+<br>
 
 <h2 style="color:#15A7E1">Funciones entrada/salida.</h2>
 <h3 style="color:#15A7E1">print().</h3>

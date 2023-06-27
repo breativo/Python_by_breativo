@@ -182,3 +182,14 @@ print(sorted(my_list)) # ['Java', 'JavaScript', 'Kotlin', 'Python', 'React', 'Sw
 my_list=['Python', 'Java', 'JavaScript', 'Kotlin', 'React', 'Swift', 'TypeScript']
 my_new_list=sorted(my_list, reverse=True)
 print(my_new_list) # ['TypeScript', 'Swift', 'React', 'Python', 'Kotlin', 'JavaScript', 'Java']
+
+# Lista de comprensión
+language='Python'
+my_list_comprehension = [i for i in language]
+print(type(my_list_comprehension))  # list
+print(my_list_comprehension)        # ['P', 'y', 't', 'h', 'o', 'n']
+
+
+# Lista de comprensión con sentencia condicional
+odd_numbers = [i for i in range(21) if i % 2 != 0]  
+print(odd_numbers)  # [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]

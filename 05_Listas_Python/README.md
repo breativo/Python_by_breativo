@@ -455,8 +455,43 @@ print(my_new_list)
 ['TypeScript', 'Swift', 'React', 'Python', 'Kotlin', 'JavaScript', 'Java']
 ````
 
-</br>
-</br>
+<h2 style="color:#15A7E1">Lista de comprensión.</h2>
+La comprensión de listas en Python es una forma compacta de crear una lista a partir de una secuencia. Es una forma corta de crear una nueva lista. La comprensión de listas es considerablemente más rápida que procesar una lista usando el ciclo for.
+
+<br>
+<br>
+
+````py
+# Entrada
+language='Python'
+my_list_comprehension = [i for i in language]
+print(type(my_list_comprehension)) 
+print(my_list_comprehension)   
+````
+````sh
+# Salida
+list
+['P', 'y', 't', 'h', 'o', 'n']
+````
+
+<h2 style="color:#15A7E1">Lista de comprensión con sentencia condicional.</h2>
+
+<br>
+<br>
+
+````py
+# Entrada
+odd_numbers = [i for i in range(21) if i % 2 != 0]  
+print(odd_numbers) 
+````
+````sh
+# Salida
+[1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+````
+
+
+<br>
+<br>
 
 🎉 Enhorabuena has superado la lección 🎉
 
