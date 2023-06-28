@@ -268,12 +268,118 @@ finally:
 
 <h2 style="color:#15A7E1">Tipos de archivos.</h2>
 <h3 style="color:#15A7E1">Archivo con extensión txt</h3>
+En Python, puedes trabajar con archivos de texto con la extensión ".txt" utilizando la biblioteca estándar open(). 
+
+<br>
+<br>
+
+````py
+# Entrada
+# Abre el archivo en modo lectura
+archivo = open("archivo.txt", "r")
+
+# Lee el contenido del archivo
+contenido = archivo.read()
+
+# Cierra el archivo
+archivo.close()
+
+# Imprime el contenido del archivo
+print(contenido)
+
+````
 <h3 style="color:#15A7E1">Archivo con extensión json</h3>
+En Python, puedes trabajar con archivos en formato JSON utilizando la biblioteca estándar 'json'.
+
+<br>
+<br>
+
+````py
+# Entrada
+import json
+
+# Abre el archivo en modo lectura
+with open("archivo.json", "r") as archivo:
+    # Lee el contenido del archivo
+    contenido = json.load(archivo)
+
+# Accede a los datos del archivo JSON
+print(contenido)
+````
 <h3 style="color:#15A7E1">Archivo con extensión csv
 </h3>
-<h3 style="color:#15A7E1">Archivo con extensión xlsx</h3>
-<h3 style="color:#15A7E1">Archivo con extensión xml</h3>
+En Python, puedes trabajar con archivos en formato CSV (Comma-Separated Values) utilizando la biblioteca estándar csv. 
 
+<br>
+<br>
+
+````py
+# Entrada
+import csv
+
+# Abre el archivo en modo lectura
+with open("archivo.csv", "r") as archivo:
+    # Crea un lector de CSV
+    lector_csv = csv.reader(archivo)
+
+    # Itera sobre las filas del archivo CSV
+    for fila in lector_csv:
+        # Accede a los valores de cada columna
+        for valor in fila:
+            print(valor)
+
+````
+
+<h3 style="color:#15A7E1">Archivo con extensión xlsx</h3>
+Para trabajar con archivos en formato XLSX en Python, puedes utilizar la biblioteca openpyxl. 
+
+<br>
+<br>
+
+````py
+# Entrada
+import openpyxl
+
+# Carga el archivo XLSX
+archivo = openpyxl.load_workbook("archivo.xlsx")
+
+# Obtén una referencia a una hoja de cálculo específica
+hoja = archivo["Hoja1"]
+
+# Itera sobre las filas de la hoja de cálculo
+for fila in hoja.iter_rows():
+    # Accede a los valores de cada celda
+    for celda in fila:
+        print(celda.value)
+
+# Cierra el archivo
+archivo.close()
+
+````
+<h3 style="color:#15A7E1">Archivo con extensión xml</h3>
+Para trabajar con archivos en formato XML en Python, puedes utilizar la biblioteca xml.etree.ElementTree
+
+<br>
+<br>
+
+````py
+# Entrada
+import xml.etree.ElementTree as ET
+
+# Parsea el archivo XML
+arbol = ET.parse("archivo.xml")
+
+# Obtiene la raíz del árbol XML
+raiz = arbol.getroot()
+
+# Itera sobre los elementos hijos de la raíz
+for elemento in raiz:
+    # Accede a los atributos y textos de cada elemento
+    atributos = elemento.attrib
+    texto = elemento.text
+    print(atributos, texto)
+
+````
 <br>
 <br>
 
