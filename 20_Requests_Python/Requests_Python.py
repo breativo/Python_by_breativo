@@ -9,7 +9,7 @@ import requests
 my_request = requests.get('https://breativo.com')
 print(my_request) # <Response [200]>
 
-# Respuesta requests es un objeto con metodos y atributos
+# Respuesta requests es un objeto con métodos y atributos
 print(type(my_request)) # <class 'requests.models.Response'>
 
 # Atributo text de la requests
@@ -36,7 +36,6 @@ if response.status_code == 200:
 else:
     print("Error al enviar la solicitud GET.")
 
-
 # Requests Post()
 import requests
 url = "https://www.breativo.com/login"
@@ -46,7 +45,6 @@ if response.status_code == 200:
     print("Solicitud POST exitosa.")
 else:
     print("Error al enviar la solicitud POST.")
-
 
 # Requests Put()
 import requests
@@ -58,7 +56,6 @@ if response.status_code == 200:
 else:
     print("Error al enviar la solicitud PUT.")
 
-
 # Requests Delete()
 import requests
 url = "https://www.breativo.com/login/1"
@@ -68,12 +65,10 @@ if response.status_code == 200:
 else:
     print("Error al enviar la solicitud DELETE.")
 
-
 # Cabeceras
 my_requests = requests.get('https://breativo.com')
 print(my_requests.headers.get('Content-Type')) #text/html
 print(my_requests.headers.get('Server')) # Apache
-
 
 # Descarga fichero 
 # Imagenes requests
@@ -87,14 +82,12 @@ if response.status_code == 200:
 else:
     print("Error al descargar la imagen.")
 
-
 # Imagenes urllib
 import urllib.request
 url_imagen = "ttps://www.python.org/static/opengraph-icon-200x200.png"
 nombre_archivo = "imagen_urllib.jpg"
 urllib.request.urlretrieve(url_imagen, nombre_archivo)
 print("Descarga completada.")
-
 
 # PDF
 import requests
@@ -108,14 +101,12 @@ if response.status_code == 200:
 else:
     print("Error al descargar el archivo.")
 
-
 # PDF urllib
 import urllib.request
 url_pdf = "https://www.example.com/archivo.pdf"
 nombre_archivo = "archivo_urllib.pdf"
 urllib.request.urlretrieve(url_pdf, nombre_archivo)
 print("Descarga completada.")
-
 
 # txt
 import requests
@@ -129,14 +120,12 @@ if response.status_code == 200:
 else:
     print("Error al descargar el archivo.")
 
-
 # txt urllib
 import urllib.request
 url_txt = "https://www.example.com/archivo.txt"
 nombre_archivo = "archivo_urllib.txt"
 urllib.request.urlretrieve(url_txt, nombre_archivo)
 print("Descarga completada.")
-
 
 # Archivos comprimidos
 import requests
@@ -150,11 +139,11 @@ if response.status_code == 200:
 else:
     print("Error al descargar el archivo.")
 
-
 # Archicos comprimidos urllib
 import urllib.request
 url_zip = "https://www.example.com/archivo.zip"
 nombre_archivo = "archivo_urllib.zip"
 urllib.request.urlretrieve(url_zip, nombre_archivo)
 print("Descarga completada.")
+
 
