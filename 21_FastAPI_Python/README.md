@@ -204,7 +204,7 @@ Un "schema" es una definición o descripción de algo. No es el código que la i
 
 <br>
 
-[<< 20 Requests](../20_Requests_Python) | [22 Path and Query >>](../22_Peticiones_HTTP__Python)
+[<< 20 Requests](../20_Requests_Python) | [22 Path and Query >>](../22_Path_Query_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
