@@ -140,7 +140,7 @@ Como los parámetros de query no están fijos en una parte del path pueden ser o
 
 <br>
 
-[<< 21 FastAPI](../21_FastAPI_Python) | [23 Peticiones HTTP >>](../22_Peticiones_HTTP__Python)
+[<< 21 FastAPI](../21_FastAPI_Python) | [23 Peticiones HTTP >>](../23_Peticiones_HTTP_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
