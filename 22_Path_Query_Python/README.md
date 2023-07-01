@@ -126,7 +126,7 @@ async def user (id:int):
 # Salida navegador 127.0.0.1:8000/userquery/?id=3
 {
   "id": 3,
-  "name": "tivo",
+  "name": "breativo",
   "url": "https://breativo.dev"
 }
 

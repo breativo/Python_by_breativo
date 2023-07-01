@@ -48,8 +48,8 @@ class User(BaseModel):
 app = FastAPI()
 
 users_list = [User(id=1, name="breativo", url="https://breativo.com"),
-              User(id=2, name="brea", url="https://breativo.es"),
-              User(id=3, name="tivo",  url="https://breativo.dev")]
+              User(id=2, name="breativo", url="https://breativo.es"),
+              User(id=3, name="breativo",  url="https://breativo.dev")]
 
 @app.get('/userquery')
 async def user (id:int):
