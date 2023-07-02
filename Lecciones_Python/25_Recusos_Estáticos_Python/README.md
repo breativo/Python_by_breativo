@@ -32,7 +32,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 <br>
 
-[<< 24 Routers](../24_Routers_Python) | [26 Aitorización >>](../26_Autorización_Python)
+[<< 24 Routers](../24_Routers_Python) | [26 Autentificación and Autorización >>](../26_Autentificación_Autorización_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 

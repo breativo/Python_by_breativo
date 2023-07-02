@@ -52,7 +52,11 @@ Con el curso Python by breativo, aprenderás a dominarás los principios básico
 # Enlaces de interés
 
 Página oficial de [Python](https://www.python.org/)\
+Página [documentació Python](https://docs.python.org/es/3/)\
 Página oficial de [FastAPI](https://fastapi.tiangolo.com/es/)\
+Página oficial de [Json Web Token](https://jwt.io/)\
+página oficial de [SQL]()\
+Página oficial de [MariaDB]()\
 ...
 
 # Encuéntrame
