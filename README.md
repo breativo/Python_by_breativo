@@ -40,7 +40,7 @@ Con el curso Python by breativo, aprenderás a dominarás los principios básico
 #### [23 Peticiones HTTP Python.](Lecciones_Python/23_Peticiones_HTTP_Python)
 #### [24 Routers Python.](Lecciones_Python/24_Routers_Python)
 #### [25 Recursos estáticos Python.](Lecciones_Python/25_Rescurso_Estáticos_Python)
-#### [26 Autorizaciones Python.](Lecciones_Python/26_Autorización_Python)
+#### [26 Autentificación and Autorización Python.](Lecciones_Python/26_Autorización_Python)
 #### [27 Base de datos MOngoDB Python.](Lecciones_Python/27_MongoDB_Python)
 #### [28 Base de datos SQL Python.](Lecciones_Python/28_SQL_Python)
 #### [29 ChatGPT Python.](Lecciones_Python/29_ChatGPT_Python)
