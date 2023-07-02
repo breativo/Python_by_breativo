@@ -54,30 +54,58 @@ Una solicitud GET es uno de los métodos más comunes utilizados en el protocolo
 
 ````py
 # Entrada
-from fastapi import FastAPI
-import httpx
-
-app = FastAPI()
-@app.get("/url")
-async def get_resource():
-    async with httpx.AsyncClient() as client:
-        response = await client.get("https://www.breativo.com")
-        return response.text
+@app.get("/")
+async def get_users():
+    return users_list
 ````
 ````sh
 # Salida
-# Salida navegador http://127.0.0.1:8000/url
-"<!DOCTYPE html>\r\n
-<html lang=\"es\">\r\n
-<head>\r\n 
-   <meta charset=\"utf-8\">\r\n
-       <title>breativo</title>\r\n
-           <link rel=\"icon\" type=\"image/x-icon\" href=\"/img/favicon.png\">\r\n
-               <link href=\"css/style.css\" rel=\"stylesheet\">\r\n
-                   <link href=\"css/formulario.css\" rel=\"stylesheet\">\r\n
-                   </head>\r\n<body>\r\n
-...   
-...
+# Salida navegador http://127.0.0.1:8000/
+[
+  {
+    "id": 1,
+    "name": "breativo",
+    "url": "https://breativo.com"
+  },
+  {
+    "id": 2,
+    "name": "breativo",
+    "url": "https://breativo.es"
+  },
+  {
+    "id": 3,
+    "name": "breativo",
+    "url": "https://breativo.dev"
+  }
+]
+````
+Ademas de obtener la información de todos los registros, podemos obtener la información de algun registro en concreto. Para esto solo debemos añadir un parametro a la operación get que la permite realizar la busqueda individual.
+
+<br>
+<br>
+
+````py
+# Entrada
+@app.get("/user/{user_id}")
+async def get_user(user_id: int):
+    for user in users_list:
+        if user.id == user_id:
+            return user
+    return {"error": "Usuario no encontrado"}
+````
+````sh
+# Salida
+# Salida navegador http://127.0.0.1:8000/user/1
+{
+  "id": 1,
+  "name": "breativo",
+  "url": "https://breativo.com"
+}
+
+# Salida navegador http://127.0.0.1:8000/user/10
+{
+  "error": "Usuario no encontrado"
+}
 ````
 
 <h2 style="color:#15A7E1">Operaciones POST.</h2>
@@ -88,7 +116,135 @@ Las operaciones POST son utilizadas en el protocolo HTTP para enviar datos al se
 
 ````py
 # Entrada
+@app.post("/users")
+async def create_user(user: User):
+    users_list.append(user)
+    return user
 
+# Nuevo usuario
+{
+  "id":4, "name":"breativo","url":"https://breativo.info"
+}
+````
+````sh
+# Salida
+# Salida navegador http://127.0.0.1:8000/user/4
+{
+  "id": 4,
+  "name": "breativo",
+  "url": "https://breativo.info"
+}
+
+# Salida navegador  http://127.0.0.1:8000/ con GET
+[
+  {
+    "id": 1,
+    "name": "breativo",
+    "url": "https://breativo.com"
+  },
+  {
+    "id": 2,
+    "name": "breativo",
+    "url": "https://breativo.es"
+  },
+  {
+    "id": 3,
+    "name": "breativo",
+    "url": "https://breativo.dev"
+  },
+  {
+    "id": 4,
+    "name": "breativo",
+    "url": "https://breativo.info"
+  }
+]
+````
+<h2 style="color:#15A7E1">Operaciones PUT.</h2>
+
+La operación PUT es un método HTTP que se utiliza para actualizar un recurso existente en un servidor. En el contexto de una API, la operación PUT se utiliza cuando se desea modificar o reemplazar completamente un recurso existente con nuevos datos.
+
+<br>
+<br>
+
+````py
+# Entrada
+@app.put("/users/{user_id}")
+async def update_user(user_id: int):
+    for user in users_list:
+        if user.id == user_id:
+            user.name = updated_user.name
+            user.url = updated_user.url
+            return user
+    return {"error": "Usuario no encontrado"}
+
+# Modificación usuario
+{
+  "id":3, "name":"breativo","url":"https://breativo.breativo"
+}
+````
+````sh
+# Salida
+# Salida del navegador 127.0.0.1:8000/user/3 con GET
+{
+  "id":3, "name":"breativo","url":"https://breativo.breativo"
+}
+
+# Salida del navegador 127.0.00.7:8000/ con GET
+[
+  {
+    "id": 1,
+    "name": "breativo",
+    "url": "https://breativo.com"
+  },
+  {
+    "id": 2,
+    "name": "breativo",
+    "url": "https://breativo.es"
+  },
+  {
+    "id": 3,
+    "name": "breativo",
+    "url": "https://breativo.breativo"
+  }
+]
+````
+
+<h2 style="color:#15A7E1">Operaciones DELETE.</h2>
+La operación DELETE es un método HTTP que se utiliza para eliminar un recurso existente en un servidor. En el contexto de una API, la operación DELETE se utiliza cuando se desea eliminar un recurso específico según su identificador.
+
+<br>
+<br>
+
+````py
+# Entrada
+@app.delete("/users/{user_id}")
+async def delete_user(user_id: int):
+    for user in users_list:
+        if user.id == user_id:
+            users_list.remove(user)
+            return {"message": "Usuario eliminado"}
+    return {"error": "Usuario no encontrado"}
+````
+````sh
+# Salida
+# Salida navegador 127.0.0.1/users/3 DELETE
+{
+  "message": "Usuario eliminado"
+}
+# Salida del navegador 127.0.00.7:8000/ con GET
+[
+  {
+    "id": 1,
+    "name": "breativo",
+    "url": "https://breativo.com"
+  },
+  {
+    "id": 2,
+    "name": "breativo",
+    "url": "https://breativo.es"
+  }
+]
+````
 
 <br>
 <br>
