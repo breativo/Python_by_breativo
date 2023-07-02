@@ -14,7 +14,7 @@ Con el curso Python by breativo, aprenderás a dominarás los principios básico
 [![ChatGPT](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
 
 # Temario 
-#### [00 Instalación Python.](https://github.com/breativo/Python_by_breativo/tree/master/00_Instalaci%C3%B3n_Python)
+
 #### [01 Variables Python.](https://github.com/breativo/Python_by_breativo/tree/master/01_Variables_Python)
 #### [02 Funciones integradas Python.](https://github.com/breativo/Python_by_breativo/tree/master/02_Funciones_Integradas_Python)
 #### [03 Operadores Python.](https://github.com/breativo/Python_by_breativo/tree/master/02_Operadores_Python)
@@ -44,7 +44,7 @@ Con el curso Python by breativo, aprenderás a dominarás los principios básico
 #### [27 Base de datos MOngoDB Python.](https://github.com/breativo/Python_by_breativo/tree/master/27_MongoDB_Python)
 #### [28 Base de datos SQL Python.](https://github.com/breativo/Python_by_breativo/tree/master/28_SQL_Python)
 #### [29 ChatGPT Python.](https://github.com/breativo/Python_by_breativo/tree/master/29_ChatGPT_Python)
-#### [30 ...]()
+#### [30 Restos Pythn](Lecciones_Python/30_Retos_Python)
 
 <br>
 <br>
