@@ -271,7 +271,7 @@ breativo
 <br>
 <br>
 
-[<< 00 Instalación](../00_Instalación_Python) | [02 Funciones integradas >>](../02_Funciones_Integradas_Python)
+[02 Funciones integradas >>](../02_Funciones_Integradas_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
