@@ -322,7 +322,7 @@ En este caso generamos un nuevo Token de acceso.
 
 <br>
 
-[<< 25 REcursos estáticos](../25_Recursos_Estáticos_Python) | [ 27 MongoDB>>](../27_MongoDB_Python)
+[<< 25 Recursos estáticos](../25_Recursos_Estáticos_Python) | [ 27 MongoDB>>](../27_MongoDB_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
