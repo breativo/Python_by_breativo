@@ -256,7 +256,7 @@ ZeroDivisionError: no podemos dividir por cero.
 
 <br>
 
-[<< 12 Clases](../11_Clases_Python) | [14 Módulos >>](../14_Modulos_Python)
+[<< 12 Clases](../12_Clases_Python) | [14 Módulos >>](../14_Modulos_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
