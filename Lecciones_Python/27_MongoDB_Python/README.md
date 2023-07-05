@@ -40,7 +40,7 @@ pip install pymongo
 
 <br>
 
-[<< 26 Autentificación and autorización REcursos estáticos](../26_Autentificación_Autorización) | [ 28 Bases SQL>>](../28_SQL_Python)
+[<< 26 Autentificación and autorización](../26_Autentificación_Autorización_Python) | [ 28 Bases SQL>>](../28_SQL_Python)
 
 ![https://github.com/breativo](https://raw.githubusercontent.com/breativo/breativo/master/img/img_breativo/Banner_negro.png)
 
