@@ -43,8 +43,8 @@ Con el curso Python by breativo, aprenderás a dominarás los principios básico
 #### [26 Autentificación and Autorización Python.](Lecciones_Python/26_Autentificación_Autorización_Python)
 #### [27 Base de datos MOngoDB Python.](Lecciones_Python/27_MongoDB_Python)
 #### [28 Base de datos SQL Python.](Lecciones_Python/28_SQL_Python)
-#### [29 ChatGPT Python.](Lecciones_Python/29_ChatGPT_Python)
-#### [30 Restos Pythn](Lecciones_Python/30_Retos_Python)
+#### [29 Base de datos mySQL Python.](Lecciones_Python/29_mySQL_Python)
+#### [30 ChatGPT Python.](Lecciones_Python/30_ChatGPT_Python)
 
 <br>
 <br>
@@ -55,8 +55,10 @@ Página oficial de [Python](https://www.python.org/)\
 Página [documentació Python](https://docs.python.org/es/3/)\
 Página oficial de [FastAPI](https://fastapi.tiangolo.com/es/)\
 Página oficial de [Json Web Token](https://jwt.io/)\
-página oficial de [SQL]()\
-Página oficial de [MariaDB]()\
+página oficial de [SQL](https://learn.microsoft.com/es-es/sql/sql-server/?view=sql-server-ver16)\
+Página oficial de [MongoDB](https://www.mongodb.com/atlas/database)\
+Página [documentación MongoDB](https://www.mongodb.com/docs/)\
+Página ofical [documentación openai](https://platform.openai.com/docs/api-reference?lang=python)\
 ...
 
 # Encuéntrame
