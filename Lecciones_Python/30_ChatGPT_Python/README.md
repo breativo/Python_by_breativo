@@ -33,34 +33,121 @@ Estos son solo los pasos básicos para establecer una conexión con ChatGPT util
 
 ````py
 # Entrada
-import openai
-from rich import print
+import openai  # pip install openai
+import typer  # pip install "typer[all]"
+from rich import print  # pip install rich
+from rich.table import Table
 
-openai.api_key = "tu_clave_de_api"
+def main():
 
-print("[bold red]ChatGPT en Python[/bold red]") 
-contexto = {"role": "system", "content": "Sabes todo lo que te pregunto"}
-messages = [contexto]
+    openai.api_key = "key de openai"
 
-while True:
-    content = input("\nDime de qué quieres hablar, creativo: ")  
+    print("💬 [bold green]ChatGPT API en Python[/bold green]")
 
-    if content == "exit":
-        break
-    
-    messages.append({"role": "user", "content": content})
-    
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=messages,
-        max_tokens=50
-    )
-    
-    response_messages = response.choices[0].text.strip()
-    
-    messages.append({"role": "assistant", "content": response_messages})
-    print(response_messages)
+    table = Table("Comando", "Descripción")
+    table.add_row("exit", "Salir de la aplicación")
+    table.add_row("new", "Crear una nueva conversación")
 
+    print(table)
+
+    # Contexto del asistente
+    context = {"role": "system",
+               "content": "Eres un asistente muy útil."}
+    messages = [context]
+
+    while True:
+
+        content = __prompt()
+
+        if content == "new":
+            print("🆕 Nueva conversación creada")
+            messages = [context]
+            content = __prompt()
+
+        messages.append({"role": "user", "content": content})
+
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo", messages=messages)
+
+        response_content = response.choices[0].message.content
+
+        messages.append({"role": "assistant", "content": response_content})
+
+        print(f"[bold green]> [/bold green] [green]{response_content}[/green]")
+
+
+def __prompt() -> str:
+    prompt = typer.prompt("\n¿Sobre qué quieres hablar? ")
+
+    if prompt == "exit":
+        exit = typer.confirm("✋ ¿Estás seguro?")
+        if exit:
+            print("👋 ¡Hasta luego!")
+            raise typer.Abort()
+
+        return __prompt()
+
+    return prompt
+
+
+if __name__ == "__main__":
+    typer.run(main)
+
+
+````
+````sh
+# Salida 
+💬 ChatGPT API en Python
+┏━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Comando ┃ Descripción                  ┃
+┡━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ exit    │ Salir de la aplicación       │
+│ new     │ Crear una nueva conversación │
+└─────────┴──────────────────────────────┘
+
+¿Sobre qué quieres hablar? : variables python
+>  En Python, una variable es un espacio en la memoria que se utiliza para almacenar un valor. Puedes asignar
+un valor a una variable utilizando el operador de asignación "=".
+
+Aquí hay algunos ejemplos de variables en Python:
+
+```
+x = 5
+y = "Hola"
+z = True
+```
+
+En este ejemplo, la variable "x" se ha asignado con el valor entero 5, la variable "y" se ha asignado con el
+valor de cadena "Hola" y la variable "z" se ha asignado con el valor booleano True.
+
+Puedes utilizar operaciones y funciones con variables para realizar cálculos y manipulaciones de datos. Por
+ejemplo:
+
+```
+x = 10
+y = 5
+suma = x + y
+```
+
+En este ejemplo, se están utilizando las variables "x" y "y" para realizar una suma y almacenar el resultado
+en la variable "suma".
+
+Las variables en Python son flexibles y pueden cambiar de tipo de dato. Por ejemplo:
+
+```
+x = 5
+x = "Hola"
+```
+
+En este ejemplo, la variable "x" se ha cambiado de un entero a una cadena.
+
+Es importante tener en cuenta que al utilizar variables, debes ser consciente de los tipos de datos y
+asegurarte de utilizarlos adecuadamente en tu código.
+
+¿Sobre qué quieres hablar? : exit
+✋ ¿Estás seguro? [y/N]: y
+👋 ¡Hasta luego!
+Aborted.
 ````
 
 <br>
